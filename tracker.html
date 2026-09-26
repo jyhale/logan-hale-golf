@@ -1,0 +1,1583 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Logan Hale, University of Denver women's golf: every round of the 2026-27 season scored against par and ranked inside its field, her full collegiate record, Denver team results, and the West Coast Conference outlook.">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Logan Hale — Denver Pioneers Golf">
+<meta property="og:description" content="Every round scored against par and against the field, the full collegiate record, and the West Coast Conference outlook.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='31' fill='%238C2332'/%3E%3Ctext x='32' y='42' text-anchor='middle' fill='%23fff' font-family='Helvetica,Arial,sans-serif' font-size='26' font-weight='700'%3ELH%3C/text%3E%3C/svg%3E">
+<title>Logan Hale — Full Season Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+
+<style>
+  :root{
+    color-scheme: light;
+    --paper:#F5F3F2;
+    --surface:#FFFFFF;
+    --surface-2:#FAF8F7;
+    --ink:#1A1517;
+    --ink-2:#584E51;
+    --ink-3:#8A7E81;
+    --rule:#E2DBDA;
+    --rule-strong:#C9BFBE;
+    --crimson:#8C2332;
+    --gold:#9A7F35;
+    --under:#A32B2B;
+    --under-soft:#F3E2E0;
+    --over:#3E5C76;
+    --over-soft:#E2E8EE;
+    --even:#8A7E81;
+    --even-soft:#EDE9E8;
+
+    --f-display:"Archivo","Helvetica Neue",Arial,sans-serif;
+    --f-body:"Newsreader",Georgia,"Times New Roman",serif;
+    --f-data:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      color-scheme: dark;
+      --paper:#141213;
+      --surface:#1C191A;
+      --surface-2:#232021;
+      --ink:#F2EDEC;
+      --ink-2:#BFB4B5;
+      --ink-3:#8C8082;
+      --rule:#332E2F;
+      --rule-strong:#4A4243;
+      --crimson:#D9697A;
+      --gold:#C9A64F;
+      --under:#E27A72;
+      --under-soft:#3A2523;
+      --over:#89B2D6;
+      --over-soft:#1F2B36;
+      --even:#8C8082;
+      --even-soft:#2A2627;
+    }
+  }
+  :root[data-theme="dark"]{
+    color-scheme: dark;
+    --paper:#141213;
+    --surface:#1C191A;
+    --surface-2:#232021;
+    --ink:#F2EDEC;
+    --ink-2:#BFB4B5;
+    --ink-3:#8C8082;
+    --rule:#332E2F;
+    --rule-strong:#4A4243;
+    --crimson:#D9697A;
+    --gold:#C9A64F;
+    --under:#E27A72;
+    --under-soft:#3A2523;
+    --over:#89B2D6;
+    --over-soft:#1F2B36;
+    --even:#8C8082;
+    --even-soft:#2A2627;
+  }
+
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:var(--f-body);
+    font-size:16px;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{
+    max-width:880px;
+    margin:0 auto;
+    padding-inline:20px;
+    padding-block:36px 64px;
+    display:flex;
+    flex-direction:column;
+    gap:40px;
+  }
+
+  /* ---------- masthead ---------- */
+  .mast{display:flex;flex-direction:column;gap:14px;}
+  .eyebrow{
+    font-family:var(--f-display);
+    font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--crimson);
+  }
+  h1{
+    font-family:var(--f-display);
+    font-weight:700;
+    font-size:clamp(34px,7vw,52px);
+    line-height:1.02;
+    letter-spacing:-.02em;
+    margin:0;
+    text-wrap:balance;
+  }
+  .standfirst{
+    margin:0;
+    max-width:60ch;
+    color:var(--ink-2);
+    font-size:17px;
+  }
+  .mast-rule{height:3px;background:var(--crimson);width:84px;border-radius:2px;}
+
+  /* ---------- stat strip ---------- */
+  .stats{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(190px,1fr));
+    gap:1px;
+    background:var(--rule);
+    border:1px solid var(--rule);
+    border-radius:8px;
+    overflow:hidden;
+  }
+  .stat{
+    background:var(--surface);
+    padding:16px 16px 14px;
+    display:flex;flex-direction:column;gap:3px;
+  }
+  .stat dt{
+    font-family:var(--f-display);
+    font-size:10.5px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--ink-3);
+  }
+  .stat dd{
+    margin:0;
+    font-family:var(--f-data);
+    font-variant-numeric:tabular-nums;
+    font-size:27px;font-weight:600;letter-spacing:-.02em;
+    line-height:1.1;
+  }
+  .stat .sub{font-family:var(--f-body);font-size:13px;color:var(--ink-3);line-height:1.3;}
+  .v-under{color:var(--under);}
+  .v-over{color:var(--over);}
+
+  /* ---------- sections ---------- */
+  section{display:flex;flex-direction:column;gap:18px;}
+  h2{
+    font-family:var(--f-display);
+    font-size:13px;font-weight:600;letter-spacing:.13em;text-transform:uppercase;
+    margin:0;color:var(--ink);
+    padding-bottom:9px;border-bottom:1.5px solid var(--rule-strong);
+  }
+  h3{
+    font-family:var(--f-display);
+    font-size:19px;font-weight:600;letter-spacing:-.01em;margin:0;
+  }
+  p{margin:0;}
+  .note{font-size:14.5px;color:var(--ink-2);max-width:66ch;}
+
+  /* ---------- scorecard ---------- */
+  .card{
+    background:var(--surface);
+    border:1px solid var(--rule);
+    border-radius:10px;
+    padding:20px;
+    display:flex;flex-direction:column;gap:16px;
+  }
+  .card-head{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:baseline;justify-content:space-between;}
+  .card-meta{font-size:14px;color:var(--ink-3);font-family:var(--f-body);}
+  .result{
+    font-family:var(--f-data);font-variant-numeric:tabular-nums;
+    font-size:15px;font-weight:600;
+    display:inline-flex;align-items:center;gap:9px;
+  }
+  .pill{
+    font-family:var(--f-display);
+    font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;
+    padding:3px 9px;border-radius:999px;
+  }
+  .pill-under{background:var(--under-soft);color:var(--under);}
+  .pill-over{background:var(--over-soft);color:var(--over);}
+
+  .boxes{display:flex;flex-wrap:wrap;gap:10px;}
+  .box{
+    width:52px;
+    display:flex;flex-direction:column;align-items:center;gap:6px;
+  }
+  .box .rd{
+    font-family:var(--f-display);
+    font-size:10px;font-weight:600;letter-spacing:.09em;text-transform:uppercase;
+    color:var(--ink-3);
+  }
+  .mark{
+    width:44px;height:44px;
+    display:grid;place-items:center;
+    font-family:var(--f-data);font-variant-numeric:tabular-nums;
+    font-size:18px;font-weight:600;
+    border:2px solid transparent;
+    color:var(--ink);
+  }
+  .mark.under{border-color:var(--under);border-radius:50%;color:var(--under);}
+  .mark.over{border-color:var(--over);border-radius:4px;color:var(--over);}
+  .mark.even{border-color:var(--rule-strong);border-radius:4px;border-style:dashed;}
+  .box .tp{
+    font-family:var(--f-data);font-variant-numeric:tabular-nums;
+    font-size:12px;color:var(--ink-3);
+  }
+  .venue-key{
+    display:flex;flex-wrap:wrap;gap:6px 18px;
+    font-size:13.5px;color:var(--ink-3);
+  }
+
+  /* ---------- chart ---------- */
+  .chart-shell{overflow-x:auto;}
+  .chart-shell svg{display:block;min-width:620px;width:100%;height:auto;}
+  .legend{
+    display:flex;flex-wrap:wrap;gap:8px 20px;
+    font-size:13.5px;color:var(--ink-2);
+  }
+  .legend span{display:inline-flex;align-items:center;gap:7px;}
+  .swatch{width:14px;height:14px;border:2px solid;display:inline-block;}
+  .sw-under{border-color:var(--under);border-radius:50%;}
+  .sw-over{border-color:var(--over);border-radius:3px;}
+  .sw-even{border-color:var(--rule-strong);border-radius:3px;border-style:dashed;}
+  .dot{width:11px;height:11px;border-radius:50%;display:inline-block;}
+  .dot-sub{background:var(--under);}
+  .dot-reg{background:var(--ink-3);}
+
+  .bars{display:flex;flex-direction:column;gap:9px;}
+  .bar-row{display:flex;align-items:center;gap:12px;}
+  .bar-lab{
+    font-family:var(--f-display);font-size:11px;font-weight:600;
+    letter-spacing:.08em;color:var(--ink-3);width:62px;flex:none;
+  }
+  .bar-track{flex:1;height:14px;background:var(--even-soft);border-radius:2px;overflow:hidden;}
+  .bar-fill{display:block;height:100%;background:var(--over);border-radius:0 3px 3px 0;}
+  .bar-fill.best{background:var(--under);}
+  .bar-val{
+    font-family:var(--f-data);font-variant-numeric:tabular-nums;
+    font-size:14px;font-weight:600;width:52px;flex:none;text-align:right;
+  }
+  .bar-scale{font-size:13px;color:var(--ink-3);padding-top:2px;}
+  .tier{
+    display:inline-block;
+    font-family:var(--f-display);
+    font-size:10px;font-weight:600;letter-spacing:.09em;text-transform:uppercase;
+    padding:3px 8px;border-radius:3px;white-space:nowrap;
+  }
+  .t-elite{background:var(--under);color:var(--surface);}
+  .t-strong{background:var(--under-soft);color:var(--under);}
+  .t-mid{background:var(--over-soft);color:var(--over);}
+  .t-reg{background:var(--even-soft);color:var(--ink-3);}
+  table.sof td:nth-child(2){text-align:left;}
+  .sof-chip{
+    display:flex;flex-wrap:wrap;align-items:center;gap:8px;
+    margin-top:5px;
+    font-family:var(--f-data);font-size:12.5px;color:var(--ink-3);
+    font-variant-numeric:tabular-nums;
+  }
+  .verdict{
+    margin:0;
+    border-left:4px solid var(--crimson);
+    background:var(--surface);
+    border-radius:0 8px 8px 0;
+    padding:20px 22px;
+    display:flex;flex-direction:column;gap:10px;
+  }
+  .verdict p{
+    font-family:var(--f-display);
+    font-size:clamp(20px,3.4vw,26px);
+    font-weight:600;line-height:1.24;letter-spacing:-.015em;
+    text-wrap:balance;margin:0;
+  }
+  .verdict .verdict-sub{
+    font-family:var(--f-body);
+    font-size:16px;font-weight:400;line-height:1.5;
+    letter-spacing:0;color:var(--ink-2);
+    max-width:62ch;
+  }
+  .ranked{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px;}
+  .ranked li{display:flex;gap:14px;align-items:flex-start;}
+  .rank-n{
+    font-family:var(--f-data);font-size:15px;font-weight:600;
+    width:28px;height:28px;flex:none;border-radius:50%;
+    display:grid;place-items:center;
+    background:var(--under-soft);color:var(--under);
+  }
+  .ranked li:nth-child(n+3) .rank-n{background:var(--even-soft);color:var(--ink-3);}
+  .rank-body{font-size:15.5px;line-height:1.45;}
+  .rank-sub{display:block;font-size:14px;color:var(--ink-2);margin-top:2px;}
+  .td-note{
+    font-family:var(--f-body)!important;font-size:14px!important;
+    text-align:left!important;color:var(--ink-2);
+  }
+
+  /* ---------- tables ---------- */
+  .table-shell{overflow-x:auto;}
+  table{border-collapse:collapse;width:100%;min-width:480px;font-size:15px;}
+  caption{
+    text-align:left;font-family:var(--f-display);font-size:13px;font-weight:600;
+    color:var(--ink-2);padding-bottom:10px;
+  }
+  th,td{padding:9px 12px;text-align:right;border-bottom:1px solid var(--rule);}
+  th:first-child,td:first-child{text-align:left;padding-left:0;}
+  td:last-child,th:last-child{padding-right:0;}
+  thead th{
+    font-family:var(--f-display);
+    font-size:10.5px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--ink-3);border-bottom:1.5px solid var(--rule-strong);
+  }
+  tbody td{font-family:var(--f-data);font-variant-numeric:tabular-nums;font-size:14.5px;}
+  tbody td:first-child{font-family:var(--f-body);font-size:15px;}
+  tr.her td{background:var(--surface-2);font-weight:600;}
+  tr.her td:first-child{color:var(--crimson);}
+
+  footer{
+    font-size:13.5px;color:var(--ink-3);
+    border-top:1px solid var(--rule);padding-top:18px;
+    display:flex;flex-direction:column;gap:6px;
+  }
+  a{color:var(--crimson);}
+
+  @media (max-width:520px){
+    .box{width:46px;}
+    .mark{width:40px;height:40px;font-size:16px;}
+  }
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="mast">
+    <div class="eyebrow">Denver Pioneers &middot; Women's Golf &middot; Fall 2026</div>
+    <h1>Logan Hale</h1>
+    <div class="mast-rule"></div>
+    <p class="standfirst">Her full collegiate record, every competitive round of the fall scored against par and ranked inside its field, how Denver is scoring as a team, and what the move to the West Coast Conference asks of both. Updated after each event posts.</p>
+  </header>
+
+  <section>
+    <h2>Season to date</h2>
+    <dl class="stats">
+      <div class="stat">
+        <dt>Scoring average</dt>
+        <dd>72.67</dd>
+        <div class="sub">6 tournament rounds, 436 strokes</div>
+      </div>
+      <div class="stat">
+        <dt>Season to par</dt>
+        <dd class="v-over">+4</dd>
+        <div class="sub">+9 Redbird, &minus;5 Red Sky</div>
+      </div>
+      <div class="stat">
+        <dt>Low round</dt>
+        <dd class="v-under">68</dd>
+        <div class="sub">&minus;4 &middot; Red Sky, final round</div>
+      </div>
+      <div class="stat">
+        <dt>Rounds under par</dt>
+        <dd>2<span style="font-size:17px;color:var(--ink-3);">/6</span></dd>
+        <div class="sub">both at Red Sky</div>
+      </div>
+      <div class="stat">
+        <dt>Events</dt>
+        <dd>2</dd>
+        <div class="sub">T18 at Redbird, T23 at Red Sky</div>
+      </div>
+      <div class="stat">
+        <dt>Team-low round</dt>
+        <dd>2<span style="font-size:17px;color:var(--ink-3);">&times;</span></dd>
+        <div class="sub">Red Sky rounds one and three</div>
+      </div>
+      <div class="stat">
+        <dt>Vs the field</dt>
+        <dd class="v-under">&minus;2.47</dd>
+        <div class="sub">per round &middot; field averaged 75.14 over the same six</div>
+      </div>
+      <div class="stat">
+        <dt>Year over year</dt>
+        <dd class="v-under">&minus;2.12</dd>
+        <div class="sub">on last season's 74.79</div>
+      </div>
+    </dl>
+    <p class="note">These are tournament rounds only. The six-round intrasquad qualifying that opened the fall is shown below for shape, but it does not count toward a collegiate scoring average.</p>
+  </section>
+
+  <section>
+    <h2>Round by round</h2>
+    <p class="note">Every round of the fall in order, qualifying included. Lower is better, so the axis is inverted: under-par rounds rise above the line. Her three under-par rounds are also her three lowest of the fall, and they have arrived in descending order &mdash; &minus;2, then &minus;3, then &minus;4.</p>
+    <div class="chart-shell">
+      <svg id="trend" viewBox="0 0 720 300" role="img" aria-label="Bar chart of Logan Hale's twelve fall 2026 rounds relative to par, in three groups: qualifying at plus 6, plus 1, plus 2, even, minus 2, even; the Lady Redbird Invitational at plus 6, plus 2, plus 1; and the Golfweek Red Sky Classic at minus 3, plus 2, minus 4."></svg>
+    </div>
+    <div class="legend">
+      <span><i class="swatch sw-under"></i> Under par</span>
+      <span><i class="swatch sw-even"></i> Even par</span>
+      <span><i class="swatch sw-over"></i> Over par</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Events</h2>
+
+    <article class="card">
+      <div class="card-head">
+        <div>
+          <h3>Fall team qualifying</h3>
+          <div class="card-meta">Sep 2&ndash;7 &middot; City Park GC, Denver (par 70) and DU Golf Club at Highlands Ranch (par 72)</div>
+        </div>
+        <div class="result">435 <span class="pill pill-over">+7</span> 2nd of 9</div>
+      </div>
+
+      <div class="boxes">
+        <div class="box"><span class="rd">R1</span><span class="mark over">76</span><span class="tp">+6</span></div>
+        <div class="box"><span class="rd">R2</span><span class="mark over">73</span><span class="tp">+1</span></div>
+        <div class="box"><span class="rd">R3</span><span class="mark over">72</span><span class="tp">+2</span></div>
+        <div class="box"><span class="rd">R4</span><span class="mark even">72</span><span class="tp">E</span></div>
+        <div class="box"><span class="rd">R5</span><span class="mark under">70</span><span class="tp">&minus;2</span></div>
+        <div class="box"><span class="rd">R6</span><span class="mark even">72</span><span class="tp">E</span></div>
+      </div>
+
+      <div class="venue-key">
+        <span>City Park: R1, R3</span>
+        <span>Highlands Ranch: R2, R4, R5, R6</span>
+      </div>
+
+      <p class="note">Finished 4 back of Raegan Capizzi and 4 clear of third, 7.75 strokes better than the field average of +18. Highlands Ranch was the difference: 73-72-70-72 there added up to <strong>287, one under par</strong> &mdash; the only sub-par aggregate on that course by anyone in the field. City Park cost her 8 shots over two visits. Lowest standard deviation in the field (1.80) and the only player whose score never went up.</p>
+    </article>
+
+    <article class="card">
+      <div class="card-head">
+        <div>
+          <h3>Lady Redbird Invitational</h3>
+          <div class="card-meta">Sep 13&ndash;14 &middot; Weibring Golf Club, Normal, Illinois &middot; Par 72</div>
+        </div>
+        <div class="result">225 <span class="pill pill-over">+9</span> T18</div>
+      </div>
+
+      <div class="boxes">
+        <div class="box"><span class="rd">R1</span><span class="mark over">78</span><span class="tp">+6</span></div>
+        <div class="box"><span class="rd">R2</span><span class="mark over">74</span><span class="tp">+2</span></div>
+        <div class="box"><span class="rd">R3</span><span class="mark over">73</span><span class="tp">+1</span></div>
+      </div>
+
+      <p class="note">Her first tournament of the season and her only one without a round at par or better. Denver finished 4th of 13 at 28 over, behind St. Thomas, Augusta and Illinois State. Freshman Kesha Louw led the Pioneers at six over and Raegan Capizzi was next at eight, leaving Hale third on the team &mdash; the only event this fall where she wasn't the low or second-low Pioneer. The closing 73 was her best round of the week &mdash; and, ranked inside its own field, the best round she played all fall: T6 of 77 on a day the field averaged 78.08. The field rated 68.6 for power, the second-weakest collegiate field in her ranking window.</p>
+    </article>
+
+    <article class="card">
+      <div class="card-head">
+        <div>
+          <h3>Golfweek Red Sky Classic</h3>
+          <div class="card-meta">Sep 21&ndash;23 &middot; Red Sky Golf Club, Fazio Course, Wolcott, CO &middot; Par 72, 6,383 yards</div>
+        </div>
+        <div class="result">211 <span class="pill pill-under">&minus;5</span> T23 of 108</div>
+      </div>
+
+      <div class="boxes">
+        <div class="box"><span class="rd">R1</span><span class="mark under">69</span><span class="tp">&minus;3</span></div>
+        <div class="box"><span class="rd">R2</span><span class="mark over">74</span><span class="tp">+2</span></div>
+        <div class="box"><span class="rd">R3</span><span class="mark under">68</span><span class="tp">&minus;4</span></div>
+      </div>
+
+      <p class="note">A 70.33 average against a field averaging 72.68, in a 108-player field with USC, Texas A&amp;M, LSU, Pepperdine and Miami in it. Forty-six players broke par; she finished inside the top quarter, low Pioneer by two, and counted in all three rounds.</p>
+
+      <div class="table-shell">
+        <table>
+          <caption>Denver at Red Sky &mdash; 860 (&minus;4), 10th of 20</caption>
+          <thead>
+            <tr><th>Player</th><th>R1</th><th>R2</th><th>R3</th><th>Total</th><th>To par</th><th>Place</th></tr>
+          </thead>
+          <tbody>
+            <tr class="her"><td>Logan Hale</td><td>69</td><td>74</td><td>68</td><td>211</td><td>&minus;5</td><td>T23</td></tr>
+            <tr><td>Kesha Louw</td><td>70</td><td>74</td><td>69</td><td>213</td><td>&minus;3</td><td>T31</td></tr>
+            <tr><td>Maren Farbu*</td><td>78</td><td>69</td><td>69</td><td>216</td><td>E</td><td>T47</td></tr>
+            <tr><td>Victoria Richani</td><td>73</td><td>74</td><td>71</td><td>218</td><td>+2</td><td>T54</td></tr>
+            <tr><td>Raegan Capizzi</td><td>71</td><td>76</td><td>75</td><td>222</td><td>+6</td><td>T71</td></tr>
+            <tr><td>Kaitlin Zingler</td><td>75</td><td>80</td><td>71</td><td>226</td><td>+10</td><td>T86</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="note">*Played as an individual; her scores did not count toward the team. Denver sat 6th after round one, slid to 11th on a 298 (+10) middle round, and closed 279 (&minus;9) to finish 10th &mdash; low Colorado team, seven clear of Colorado.</p>
+    </article>
+  </section>
+
+  <section>
+    <h2>Career</h2>
+    <p class="note">Junior from Erie, Colorado, out of Erie High School, in her third year at Denver. Before college: 2023 Colorado 4A individual state champion by eight strokes, a team state title the same year, first-team all-state as a senior, a win at a 2023 USGA Girls' Junior qualifier to earn her place in that championship, and a cut made at the 2023 Colorado Open.</p>
+
+    <div class="table-shell">
+      <table>
+        <caption>Collegiate record by season</caption>
+        <thead>
+          <tr><th>Season</th><th>Events</th><th>Rounds</th><th>Scoring avg</th><th>Honors and notes</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>2024&ndash;25 (Fr.)</td><td>10</td><td>30</td><td>75.70</td><td class="td-note">All-Summit League All-Freshman; two top-10s</td></tr>
+          <tr><td>2025&ndash;26 (So.)</td><td>10</td><td>29*</td><td>74.79</td><td class="td-note">Led Denver; All-Summit League First Team; 3&times; Golfer of the Week; two top-fives, one top-10; 10 rounds at par or better</td></tr>
+          <tr class="her"><td>2026&ndash;27 (Jr.)</td><td>2</td><td>6</td><td>72.67</td><td class="td-note">T18 at Redbird, T23 and low Pioneer at Red Sky</td></tr>
+          <tr><td>Career</td><td>22</td><td>65</td><td>75.02</td><td class="td-note">*29 rounds, not 30: substituted out of round two at the 2026 Summit League Championship</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="bars">
+      <div class="bar-row"><span class="bar-lab">2024&ndash;25</span><span class="bar-track"><span class="bar-fill" style="width:81.4%"></span></span><span class="bar-val">75.70</span></div>
+      <div class="bar-row"><span class="bar-lab">2025&ndash;26</span><span class="bar-track"><span class="bar-fill" style="width:68.4%"></span></span><span class="bar-val">74.79</span></div>
+      <div class="bar-row"><span class="bar-lab">2026&ndash;27</span><span class="bar-track"><span class="bar-fill best" style="width:38.1%"></span></span><span class="bar-val">72.67</span></div>
+      <div class="bar-scale">Scoring average, scale 70.00 &ndash; 77.00. Shorter is better. 2026&ndash;27 is six rounds.</div>
+    </div>
+
+    <p class="note">Three strokes off her freshman average in two years, and two-thirds of that drop has come in the last two weeks. Six rounds is not a season: split this fall and she is 75.00 per round at Redbird against 70.33 at Red Sky. One excellent week, not yet a new level.</p>
+
+    <h3 style="margin-top:8px;">National rank</h3>
+    <dl class="stats">
+      <div class="stat">
+        <dt>College rank</dt>
+        <dd class="v-under">438</dd>
+        <div class="sub">final 2025&ndash;26 &middot; <strong>peak 166</strong>, Oct 2025</div>
+      </div>
+      <div class="stat">
+        <dt>Adjusted scoring</dt>
+        <dd>74.56</dd>
+        <div class="sub">2025&ndash;26 &middot; 75.84 as a freshman</div>
+      </div>
+      <div class="stat">
+        <dt>Avg weighted points</dt>
+        <dd class="v-under">18.96</dd>
+        <div class="sub">2025&ndash;26 &middot; 13.16 as a freshman</div>
+      </div>
+      <div class="stat">
+        <dt>World amateur rank</dt>
+        <dd>2075</dd>
+        <div class="sub">WAGR, Sep 24, 2026 &middot; <strong>peak 1285</strong></div>
+      </div>
+    </dl>
+
+    <blockquote class="verdict">
+      <p>Her college ranking peaked at 166 in October last year, then gave back 272 places by June.</p>
+      <p class="verdict-sub">The peak came a fortnight after the same stretch of the calendar she has just played again &mdash; Badger, Red Sky, Ron Moore. Everything that followed, from February onward, pushed her back to 438. Whatever the first 2026&ndash;27 list says in October, last season is the reason to read it as a starting point rather than a verdict.</p>
+    </blockquote>
+
+    <div class="table-shell">
+      <table>
+        <caption>Best and current, both rankings</caption>
+        <thead>
+          <tr><th>Ranking</th><th>Best</th><th>When</th><th>Current</th><th>Give-back</th></tr>
+        </thead>
+        <tbody>
+          <tr class="her"><td>College (NCGR)</td><td>166</td><td>Oct 15, 2025</td><td>438</td><td>272</td></tr>
+          <tr><td>World amateur (WAGR)</td><td>1285</td><td>during 2025</td><td>2075</td><td>790</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note" style="font-size:13.5px;">The college peak is read from Scoreboard's own weekly trend chart; 438 is the final 2025&ndash;26 figure, published June 8, 2026. WAGR's 1285 is its published best <em>within the rolling 104-week window</em> &mdash; anything she did before September 2024 has left that window, so no all-time WAGR best is available. Her freshman season ended at 646; its in-season peak is plotted but not labelled, so it is not quoted here.</p>
+
+    <p class="note">Two rankings, pulling in opposite directions. The <strong>National Collegiate Golf Ranking</strong> &mdash; the one the NCAA selection committee actually uses &mdash; has her moving <strong>646 to 438 in a single year</strong>. WAGR, which prices every amateur event worldwide, has her drifting from 1285 to 2075 over roughly the same period. They disagree because they measure different things: the college ranking sees only NCAA fields and rewards beating the players in front of her, while WAGR is a two-year rolling average still carrying her freshman season and her small summer events.</p>
+
+    <div class="table-shell">
+      <table>
+        <caption>The college ranking, freshman to sophomore</caption>
+        <thead>
+          <tr><th>Season</th><th>National rank</th><th>Adj. scoring</th><th>Avg (w) points</th><th>Record</th><th>Top 3s</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>2024&ndash;25 (Fr.)</td><td>646</td><td>75.84</td><td>13.16</td><td>285-471-22</td><td>0</td></tr>
+          <tr class="her"><td>2025&ndash;26 (So.)</td><td>438</td><td>74.56</td><td>18.96</td><td>389-365-18</td><td>1</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">Every column moved the right way, and one of them crossed a line that matters: her head-to-head record against the field went from <strong>.379 to .516</strong>. Her average weighted points rose 44 per cent. Adjusted scoring average &mdash; the committee's third criterion after the ranking and head-to-head results &mdash; came down 1.28 strokes, and the raw figure this fall is another 1.9 below that.</p>
+
+    <p class="note">There is <strong>no 2026&ndash;27 college ranking yet</strong>. Scoreboard's own page says the first list of the season publishes in October, and her 2026&ndash;27 record there still shows zero rounds, so neither Redbird nor Red Sky is in any ranking &mdash; college or world &mdash; as of today. October will be the first read on whether the Red Sky week moves her.</p>
+
+    <h3 style="margin-top:8px;">Best result by field</h3>
+
+    <blockquote class="verdict">
+      <p>Read by field, Red Sky 2026 is the best golf she's played in college, and it isn't close.</p>
+      <p class="verdict-sub">She was on the top-25 line in a field where the median player shot 218, and no other field she has faced has required a 211 to reach 25th. Six fields of her career rated higher for strength than the 2025 edition of this event, and they produced 92nd, T30, T55, T73, T70 and T59. Red Sky 2026 is the strongest field she has <em>contended</em> in, by a distance.</p>
+    </blockquote>
+
+    <p class="note">Her career has produced three 54-hole totals of <strong>211, all at five under par</strong>. They finished 6th, T5 and T23. Nothing about her play separates them &mdash; only who else showed up.</p>
+
+    <div class="table-shell">
+      <table>
+        <caption>The same score, three fields</caption>
+        <thead>
+          <tr><th>Event</th><th>Rounds</th><th>Total</th><th>Finish</th><th>Field headliners</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Badger Invitational, Sep 2025</td><td>&mdash;</td><td>211 (&minus;5)</td><td>6th</td><td class="td-note">Illinois, Delaware, Western Kentucky</td></tr>
+          <tr><td>Ron Moore Intercollegiate, Oct 2025</td><td>70-70-71</td><td>211 (&minus;5)</td><td>T5</td><td class="td-note">Vanderbilt, Colorado, Texas State</td></tr>
+          <tr class="her"><td>Golfweek Red Sky Classic, Sep 2026</td><td>69-74-68</td><td>211 (&minus;5)</td><td>T23</td><td class="td-note">USC, Texas A&amp;M, LSU, Pepperdine, Miami, Arizona, Kansas</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 style="margin-top:8px;">What a 211 was worth at Red Sky</h3>
+    <p class="note">Same event, same course, three straight years. Her actual scores were 212 in 2024, 226 in 2025 and 211 in 2026; this chart holds the score fixed at 211 and asks only what the field did with it.</p>
+    <div class="chart-shell">
+      <svg id="fieldshift" viewBox="0 0 720 240" role="img" aria-label="Bar chart showing that a 54-hole total of 211 would have finished 7th in the 2024 Red Sky Classic field, 11th in 2025, and 23rd in 2026."></svg>
+    </div>
+
+    <div class="table-shell">
+      <table>
+        <caption>Red Sky field depth, 54-hole totals at par 72</caption>
+        <thead>
+          <tr><th>Year</th><th>Players</th><th>Winner</th><th>10th</th><th>25th</th><th>Median</th><th>Hale</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>2024</td><td>86</td><td>204</td><td>214</td><td>218</td><td>222</td><td>212 &middot; T8</td></tr>
+          <tr><td>2025</td><td>100</td><td>203</td><td>210</td><td>217</td><td>224</td><td>226 &middot; T59</td></tr>
+          <tr class="her"><td>2026</td><td>108</td><td>199</td><td>206</td><td>211</td><td>218</td><td>211 &middot; T23</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">The score required to crack the top 25 fell seven strokes in two years, from 218 to 211, and the median fell four. In 2026 her 211 landed exactly on the top-25 line and seven clear of the median; in 2024 her 212 was six inside the line and ten clear of the median. She played better in 2026 and finished 15 places worse.</p>
+
+    <h3 style="margin-top:8px;">Strength of field, event by event</h3>
+    <p class="note">All twenty-two collegiate events she has played, ordered by the strength of the field. The ranking column is WAGR's own <strong>power rating</strong> &mdash; an independent measure of who actually teed it up, not a judgement of mine. The tiers are cut from it: <span class="tier t-elite">Elite</span> 600 and above, <span class="tier t-strong">Strong</span> 250&ndash;599, <span class="tier t-mid">Mid</span> 100&ndash;249, <span class="tier t-reg">Regional</span> under 100. "Majors" counts entered programs from the ACC, Big Ten, Big 12 and SEC, plus Pepperdine. Par varies by course, so winner and median are given in strokes with the par alongside.</p>
+
+    <div class="table-shell">
+      <table class="sof">
+        <caption>Her 22 collegiate events, strongest field first</caption>
+        <thead>
+          <tr><th>Event</th><th>Tier</th><th>Power</th><th>Finishers</th><th>Majors</th><th>Par</th><th>Winner</th><th>Median</th><th>Her result</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Stanford Intercollegiate, Oct 2024</td><td><span class="tier t-elite">Elite</span></td><td>905.0</td><td>98</td><td>13</td><td>71</td><td>202</td><td>221</td><td>235 &middot; 92nd</td></tr>
+          <tr><td>Juli Inkster Collegiate, Mar 2025</td><td><span class="tier t-elite">Elite</span></td><td>770.4</td><td>78</td><td>5</td><td>72</td><td>203</td><td>223</td><td>221 &middot; T30</td></tr>
+          <tr><td>NCAA Norman Regional, May 2025</td><td><span class="tier t-elite">Elite</span></td><td>762.6</td><td>65</td><td>7</td><td>72</td><td>208</td><td>222</td><td>230 &middot; T55</td></tr>
+          <tr><td>PING ASU Invitational, Mar 2026</td><td><span class="tier t-elite">Elite</span></td><td>756.2</td><td>88</td><td>7</td><td>72</td><td>208</td><td>223</td><td>233 &middot; T73</td></tr>
+          <tr><td>Wallace Classic, Feb 2026</td><td><span class="tier t-elite">Elite</span></td><td>625.8</td><td>95</td><td>5</td><td>71</td><td>202</td><td>227</td><td>232 &middot; T70</td></tr>
+          <tr><td>Red Sky, Sep 2025</td><td><span class="tier t-elite">Elite</span></td><td>615.8</td><td>100</td><td>6</td><td>72</td><td>203</td><td>224</td><td>226 &middot; T59</td></tr>
+          <tr class="her"><td>Red Sky, Sep 2026</td><td><span class="tier t-elite">Elite</span></td><td>not rated</td><td>108</td><td>7</td><td>72</td><td>199</td><td>218</td><td>211 &middot; T23</td></tr>
+          <tr><td>San Diego State Classic, Feb 2025</td><td><span class="tier t-strong">Strong</span></td><td>518.0</td><td>62</td><td>5</td><td>72</td><td>201</td><td>225</td><td>243 &middot; T56</td></tr>
+          <tr><td>Boilermaker Classic, Apr 2025</td><td><span class="tier t-strong">Strong</span></td><td>367.3</td><td>93</td><td>4</td><td>72</td><td>209</td><td>229</td><td>229 &middot; T45</td></tr>
+          <tr><td>FAU Paradise, Feb 2026</td><td><span class="tier t-strong">Strong</span></td><td>318.3</td><td>88</td><td>10</td><td>72</td><td>206</td><td>223.5</td><td>222 &middot; T36</td></tr>
+          <tr><td>Ron Moore Intercollegiate, Oct 2025</td><td><span class="tier t-strong">Strong</span></td><td>292.3</td><td>80</td><td>3</td><td>72</td><td>206</td><td>222.5</td><td>211 &middot; T5</td></tr>
+          <tr><td>Red Sky, Sep 2024</td><td><span class="tier t-strong">Strong</span></td><td>290.5</td><td>86</td><td>2</td><td>72</td><td>204</td><td>222</td><td>212 &middot; T8</td></tr>
+          <tr><td>Ron Moore Intercollegiate, Oct 2024</td><td><span class="tier t-strong">Strong</span></td><td>279.5</td><td>81</td><td>3</td><td>72</td><td>202</td><td>221</td><td>227 &middot; T61</td></tr>
+          <tr><td>Dr. Donnis Thompson, Mar 2025</td><td><span class="tier t-strong">Strong</span></td><td>270.8</td><td>96</td><td>2</td><td>72</td><td>205</td><td>222</td><td>226 &middot; T68</td></tr>
+          <tr><td>FAU Paradise, Feb 2025</td><td><span class="tier t-mid">Mid</span></td><td>238.8</td><td>78</td><td>8</td><td>72</td><td>205</td><td>219</td><td>224 &middot; T61</td></tr>
+          <tr><td>Boilermaker Classic, Apr 2026</td><td><span class="tier t-mid">Mid</span></td><td>236.5</td><td>94</td><td>5</td><td>72</td><td>212</td><td>231</td><td>234 &middot; T56</td></tr>
+          <tr><td>Badger Invitational, Sep 2025</td><td><span class="tier t-mid">Mid</span></td><td>112.3</td><td>81</td><td>3</td><td>72</td><td>207</td><td>225</td><td>211 &middot; T6</td></tr>
+          <tr><td>Summit League Champ., Apr 2025</td><td><span class="tier t-mid">Mid</span></td><td>111.6</td><td>39</td><td>0</td><td>71</td><td>209</td><td>225</td><td>217 &middot; T5</td></tr>
+          <tr><td>More Than Golf Invitational, Mar 2026</td><td><span class="tier t-mid">Mid</span></td><td>109.7</td><td>63</td><td>0</td><td>73</td><td>218</td><td>236</td><td>220 &middot; T3</td></tr>
+          <tr><td>Golfweek NGI, May 2026</td><td><span class="tier t-reg">Regional</span></td><td>74.3</td><td>47</td><td>1</td><td>72</td><td>209</td><td>227</td><td>229 &middot; T29</td></tr>
+          <tr><td>Lady Redbird, Sep 2026</td><td><span class="tier t-reg">Regional</span></td><td>68.6</td><td>77</td><td>0</td><td>72</td><td>213</td><td>231</td><td>225 &middot; T18</td></tr>
+          <tr><td>Summit League Champ., Apr 2026</td><td><span class="tier t-reg">Regional</span></td><td>57.8</td><td>37</td><td>0</td><td>71</td><td>212</td><td>227</td><td>&mdash; &middot; no total</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <blockquote class="verdict">
+      <p>Before this month she had never finished inside the top 25 of an Elite field. Her best was 30th.</p>
+      <p class="verdict-sub">Six of the seven strongest fields of her career came before Red Sky 2026, and they produced 92nd, T30, T55, T73, T70 and T59. Red Sky 2026 is a T23 in a field of 108 &mdash; deeper than five of those six and rated above the sixth. It is not a marginal improvement on her record in strong fields; it is a different category of result.</p>
+    </blockquote>
+
+    <p class="note">The complementary fact is just as stark. <strong>Every top-ten finish of her career &mdash; T3, T5, T5, T6, T8 &mdash; came in a field rated 293 or below.</strong> Until Red Sky she had never combined a strong field with a strong finish; the two lived in separate halves of this table. That is the whole argument of this page, and it is now a property of the data rather than a claim about it.</p>
+
+    <p class="note">Two smaller readings. The FAU Paradise Invitational in February 2026 drew ten major-conference programs &mdash; the second-highest count here &mdash; and still rated only 318 for power, a reminder that WAGR counts the players who show up, not the badges on the bags; a Power Four program travelling with its second five is not a strong field. And her two Summit League Championships rated 112 and 58, the second of them the weakest week in her ranking window at 1.51 points, which is the ranking cost of a conference she has now left.</p>
+
+    <p class="note" style="font-size:13.5px;">Red Sky 2026 has not been rated yet: it fell in WAGR week 39 and will publish later. Its field metrics &mdash; 108 players, seven majors, a winner at 199 &mdash; are all deeper than the 2025 edition, which rated 615.8, so it should enter the Elite band. Her Summit League 2026 line has no 54-hole total because she was substituted out of the middle round; her two completed rounds were 80 and 71, and the three systems place her 39th, 40th and 45th depending on how each treats an incomplete card, so no position is given here. That missing round is also why her sophomore season reads 10 events and 29 rounds. One more denominator note: "Finishers" counts players who completed every round, which is what the medians are computed over; Clippd's own profile counts entrants instead, so its field sizes run one to eight higher than these.</p>
+
+    <h3 style="margin-top:8px;">Her best results, ranked by field</h3>
+    <ol class="ranked">
+      <li>
+        <span class="rank-n">1</span>
+        <span class="rank-body"><strong>Golfweek Red Sky Classic, Sep 2026</strong> &mdash; 211, &minus;5 (T23 of 108)
+        <span class="sof-chip"><span class="tier t-elite">Elite</span> 108 players &middot; 7 majors &middot; winner 199 &middot; median 218</span>
+        <span class="rank-sub">USC, Texas A&amp;M, LSU, Pepperdine, Miami, Arizona and Kansas all entered. She counted all three rounds and was low Pioneer by two.</span></span>
+      </li>
+      <li>
+        <span class="rank-n">2</span>
+        <span class="rank-body"><strong>Golfweek Red Sky Classic, Sep 2024</strong> &mdash; 212, &minus;4 (T8 of 86)
+        <span class="sof-chip"><span class="tier t-strong">Strong</span> power 291 &middot; 86 players &middot; 2 majors &middot; winner 204</span>
+        <span class="rank-sub">Kansas and Pepperdine the only majors, with Boise State, Sacramento State and UC Irvine below them. Her freshman-year breakout.</span></span>
+      </li>
+      <li>
+        <span class="rank-n">3</span>
+        <span class="rank-body"><strong>Juli Inkster Meadow Club Collegiate, Mar 2025</strong> &mdash; 221, +5 (T30 of 78)
+        <span class="sof-chip"><span class="tier t-elite">Elite</span> power 770 &middot; 5 majors &middot; winner 203 &middot; median 223</span>
+        <span class="rank-sub">Stanford, Oregon, USC, Washington and Texas Tech entered. Her worst finish on this list and her second-richest week in ranking terms &mdash; 6.43 points, more than her T3 at More Than Golf was worth.</span></span>
+      </li>
+      <li>
+        <span class="rank-n">4</span>
+        <span class="rank-body"><strong>Ron Moore Intercollegiate, Oct 2025</strong> &mdash; 211, &minus;5 (T5)
+        <span class="sof-chip"><span class="tier t-strong">Strong</span> power 292 &middot; 80 players &middot; 3 majors &middot; winner 206</span>
+        <span class="rank-sub">Colorado and Texas State tied for second at 11 under. Played at Highlands Ranch, her home course.</span></span>
+      </li>
+      <li>
+        <span class="rank-n">5</span>
+        <span class="rank-body"><strong>Badger Invitational, Sep 2025</strong> &mdash; 211, &minus;5 (6th)
+        <span class="sof-chip"><span class="tier t-mid">Mid</span> power 112 &middot; 81 players &middot; 3 majors &middot; winner 207</span>
+        <span class="rank-sub">Delaware and Western Kentucky rounded out the top three. Career-low 68 in the final round.</span></span>
+      </li>
+      <li>
+        <span class="rank-n">6</span>
+        <span class="rank-body"><strong>More Than Golf Invitational, Mar 2026</strong> &mdash; 220, +1 (T3 of 63)
+        <span class="sof-chip"><span class="tier t-mid">Mid</span> power 110 &middot; 63 players &middot; no majors &middot; winner 218</span>
+        <span class="rank-sub">Columbia went 1-2; she tied Tulsa's Samantha Olson for third. Her best career finish, in the weakest of these fields.</span></span>
+      </li>
+    </ol>
+    <p class="note">The ordering inverts her finishes almost exactly. Her best finish came in the weakest field and her worst came in the strongest, which is the whole point: at Red Sky in 2026 she shot the same number that was worth 6th and T5 a year earlier, against a field where it was worth T23.</p>
+
+    <h3 style="margin-top:8px;">What the world ranking says</h3>
+    <p class="note">The World Amateur Golf Ranking scores every event she plays on two axes: a <strong>power rating</strong> for how strong the field was, and the points a given finish in that field is worth. It is an independent check on the field argument, built by people with no interest in the outcome.</p>
+
+    <blockquote class="verdict">
+      <p>WAGR paid her more for 30th at the Juli Inkster than for 3rd at the More Than Golf Invitational.</p>
+      <p class="verdict-sub">6.43 points against 6.17. The Inkster field rated 770 for power; More Than Golf rated 110. The ranking system prices the field, not the finish &mdash; exactly the argument the scorecards make.</p>
+    </blockquote>
+
+    <div class="chart-shell">
+      <svg id="wagr" viewBox="0 0 720 300" role="img" aria-label="Scatter chart of Logan Hale's 26 WAGR counting events, plotting field power rating against points earned. Stronger fields generally pay more points for worse finishes."></svg>
+    </div>
+    <p class="note">Each dot is one of the twenty-six counting events in her current 104-week window. The far-right dot is the Stanford Intercollegiate, power 905 &mdash; the strongest field she has played, and a 92nd-place finish that still paid 3.15 points, more than her 18th at Redbird. Red Sky 2024 is the outlier above the pack: 6.15 points for an 8th in a field rated 291, and the next result to leave the window.</p>
+
+    <dl class="stats">
+      <div class="stat">
+        <dt>Current rank</dt>
+        <dd>2075</dd>
+        <div class="sub">world amateur, all ages</div>
+      </div>
+      <div class="stat">
+        <dt>Best in window</dt>
+        <dd class="v-under">1285</dd>
+        <div class="sub">reached during 2025</div>
+      </div>
+      <div class="stat">
+        <dt>Points per event</dt>
+        <dd class="v-over">3.24</dd>
+        <div class="sub">2026 &middot; down from 4.35 in 2025</div>
+      </div>
+      <div class="stat">
+        <dt>Counting events</dt>
+        <dd>26</dd>
+        <div class="sub">in the 104-week window &middot; divisor 18.70</div>
+      </div>
+    </dl>
+
+    <p class="note"><strong>Her world ranking has drifted the wrong way while her college ranking and her scoring both improved.</strong> She averaged 4.35 WAGR points per counting event across her twelve 2025 events and 3.24 across her eleven in 2026 &mdash; a quarter less, which is why she sits at 2075 having been as high as 1285. Part of that is structural: WAGR is a two-year average that still carries her freshman season. Part of it is visible in the table below &mdash; her two biggest 2026 fields, the PING ASU Invitational and the Wallace Classic, produced 73rd and 70th, and several of her better finishes came in fields rated under 115 for power, where a good week is worth little. The college ranking, looking at the same two seasons through an NCAA-only lens, read the period as 646 to 438.</p>
+
+    <blockquote class="verdict">
+      <p>Red Sky 2026 is not in these numbers yet.</p>
+      <p class="verdict-sub">Her most recent rated event is the Redbird Invitational in week 38. Red Sky fell in week 39 and has not been processed. The 2025 edition rated 615.81 for power and paid 4.30 points for a T59; the 2026 edition was deeper still and she finished T23, so it should land among her best hauls of the window and start pulling the average back toward where it was.</p>
+    </blockquote>
+
+    <div class="table-shell">
+      <table class="sof">
+        <caption>WAGR counting events, most recent first</caption>
+        <thead>
+          <tr><th>Week</th><th>Event</th><th>Type</th><th>Finish</th><th>Field power</th><th>Points</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>38/2026</td><td class="td-note">Redbird Invitational</td><td class="td-note">Collegiate</td><td>18</td><td>68.6</td><td>3.19</td></tr>
+          <tr><td>34/2026</td><td class="td-note">Brand Asset Partners Colorado Championship</td><td class="td-note">Pro</td><td>102</td><td>280.7</td><td>2.04</td></tr>
+          <tr><td>30/2026</td><td class="td-note">CGA Women's Amateur Championship</td><td class="td-note">All ages</td><td>19</td><td>52.5</td><td>2.86</td></tr>
+          <tr><td>23/2026</td><td class="td-note">Colorado Women's Open</td><td class="td-note">Pro</td><td>35</td><td>264.6</td><td>3.46</td></tr>
+          <tr><td>20/2026</td><td class="td-note">Golfweek National Golf Invitational</td><td class="td-note">Collegiate</td><td>29</td><td>74.3</td><td>2.57</td></tr>
+          <tr><td>18/2026</td><td class="td-note">Summit League Championship</td><td class="td-note">Collegiate</td><td>39</td><td>57.8</td><td>1.51</td></tr>
+          <tr><td>16/2026</td><td class="td-note">Boilermaker Classic</td><td class="td-note">Collegiate</td><td>56</td><td>236.5</td><td>2.74</td></tr>
+          <tr><td>13/2026</td><td class="td-note">PING ASU Invitational</td><td class="td-note">Collegiate</td><td>73</td><td>756.2</td><td>3.65</td></tr>
+          <tr class="her"><td>10/2026</td><td class="td-note">More Than Golf Invitational</td><td class="td-note">Collegiate</td><td>3</td><td>109.7</td><td>6.17</td></tr>
+          <tr><td>08/2026</td><td class="td-note">Alice and John Wallace Classic</td><td class="td-note">Collegiate</td><td>70</td><td>625.8</td><td>3.60</td></tr>
+          <tr><td>06/2026</td><td class="td-note">FAU Paradise Invitational</td><td class="td-note">Collegiate</td><td>36</td><td>318.3</td><td>3.88</td></tr>
+          <tr class="her"><td>40/2025</td><td class="td-note">Ron Moore Intercollegiate</td><td class="td-note">Collegiate</td><td>5</td><td>292.3</td><td>7.11</td></tr>
+          <tr><td>39/2025</td><td class="td-note">Golfweek Red Sky Classic</td><td class="td-note">Collegiate</td><td>59</td><td>615.8</td><td>4.30</td></tr>
+          <tr><td>38/2025</td><td class="td-note">Badger Invitational</td><td class="td-note">Collegiate</td><td>6</td><td>112.3</td><td>5.04</td></tr>
+          <tr><td>29/2025</td><td class="td-note">CGA Women's Stroke Play Championship</td><td class="td-note">All ages</td><td>6</td><td>63.3</td><td>4.55</td></tr>
+          <tr><td>19/2025</td><td class="td-note">NCAA Norman Regional</td><td class="td-note">Collegiate</td><td>55</td><td>762.6</td><td>3.93</td></tr>
+          <tr><td>17/2025</td><td class="td-note">Summit League Championship</td><td class="td-note">Collegiate</td><td>5</td><td>111.6</td><td>5.15</td></tr>
+          <tr><td>15/2025</td><td class="td-note">Boilermaker Classic</td><td class="td-note">Collegiate</td><td>45</td><td>367.3</td><td>3.79</td></tr>
+          <tr><td>13/2025</td><td class="td-note">Dr. Donnis Thompson Invitational</td><td class="td-note">Collegiate</td><td>68</td><td>270.8</td><td>2.51</td></tr>
+          <tr class="her"><td>10/2025</td><td class="td-note">Juli Inkster Meadow Club Collegiate</td><td class="td-note">Collegiate</td><td>30</td><td>770.4</td><td>6.43</td></tr>
+          <tr><td>07/2025</td><td class="td-note">San Diego State Classic</td><td class="td-note">Collegiate</td><td>56</td><td>518.0</td><td>2.85</td></tr>
+          <tr><td>06/2025</td><td class="td-note">FAU Paradise Invitational</td><td class="td-note">Collegiate</td><td>61</td><td>238.8</td><td>2.27</td></tr>
+          <tr><td>01/2025</td><td class="td-note">Cactus Collegiate Challenge</td><td class="td-note">All ages</td><td>8</td><td>73.2</td><td>4.26</td></tr>
+          <tr><td>42/2024</td><td class="td-note">Stanford Intercollegiate</td><td class="td-note">Collegiate</td><td>92</td><td>905.0</td><td>3.15</td></tr>
+          <tr><td>40/2024</td><td class="td-note">Ron Moore Intercollegiate</td><td class="td-note">Collegiate</td><td>61</td><td>279.5</td><td>2.49</td></tr>
+          <tr><td>39/2024</td><td class="td-note">Red Sky Classic</td><td class="td-note">Collegiate</td><td>8</td><td>290.5</td><td>6.15</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">All twenty-six counting events, oldest at the bottom. Two readings worth noting: a 55th at the NCAA Norman Regional was worth more (3.93) than her 18th at Redbird (3.19), and a 39th at the 2026 Summit League Championship was the least valuable week of her window at 1.51 points &mdash; which is what a conference rated under 60 for power is worth in ranking terms.</p>
+
+    <h3 style="margin-top:8px;">What is aging out</h3>
+    <p class="note">WAGR is a rolling 104 weeks: a result counts in full for 52 weeks, then on a sliding discount, then not at all. Three results have already left her window and three more go in the next four weeks &mdash; the whole of her freshman fall.</p>
+
+    <div class="table-shell">
+      <table>
+        <caption>Leaving the window</caption>
+        <thead>
+          <tr><th>Event</th><th>Week</th><th>Finish</th><th>Power</th><th>Points</th><th>Status</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Mizuno Colorado PGA Junior</td><td>28/2024</td><td>1st</td><td>34.0</td><td>7.71</td><td>gone</td></tr>
+          <tr><td>CGA Women's Stroke Play</td><td>29/2024</td><td>6th</td><td>55.7</td><td>4.48</td><td>gone</td></tr>
+          <tr><td>Girls' Junior PGA Championship</td><td>31/2024</td><td>70th</td><td>442.6</td><td>3.76</td><td>gone</td></tr>
+          <tr class="her"><td>Red Sky Classic</td><td>39/2024</td><td>8th</td><td>290.5</td><td>6.15</td><td>this week</td></tr>
+          <tr><td>Ron Moore Intercollegiate</td><td>40/2024</td><td>61st</td><td>279.5</td><td>2.49</td><td>Oct 4</td></tr>
+          <tr><td>Stanford Intercollegiate</td><td>42/2024</td><td>92nd</td><td>905.0</td><td>3.15</td><td>Oct 18</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">Her only WAGR win &mdash; the 2024 Mizuno Colorado PGA Junior &mdash; is among the three already gone, which is why her profile now shows no wins. The timing of the fourth row is unusually neat: <strong>Red Sky 2024 drops out in the same week Red Sky 2026 enters.</strong> The 2024 edition paid 6.15 points for an 8th; the 2025 edition paid 4.30 for a T59 in a field rated 616; a T23 in a deeper field than either should more than replace what is leaving. Taken together the window is shedding her freshman year &mdash; her weakest &mdash; and refilling with her best.</p>
+
+    <h3 style="margin-top:8px;">Every competitive round, ranked in field</h3>
+    <p class="note">Rank here is her place in the field for that round alone, not her position on the leaderboard &mdash; a different and less flattering question than where she stood after 36 holes. Qualifying is excluded; it was an intrasquad event.</p>
+
+    <div class="table-shell">
+      <table>
+        <caption>Fall 2026 tournament rounds against the field</caption>
+        <thead>
+          <tr><th>Round</th><th>Hale</th><th>To par</th><th>Field avg</th><th>vs field</th><th>Rank in round</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Redbird, first</td><td>78</td><td>+6</td><td>77.35</td><td>+0.65</td><td>T40 of 77</td></tr>
+          <tr><td>Redbird, second</td><td>74</td><td>+2</td><td>77.38</td><td>&minus;3.38</td><td>T11 of 77</td></tr>
+          <tr><td>Redbird, final</td><td>73</td><td>+1</td><td>78.08</td><td>&minus;5.08</td><td>T6 of 77</td></tr>
+          <tr><td>Red Sky, first</td><td>69</td><td>&minus;3</td><td>73.39</td><td>&minus;4.39</td><td>T9 of 108</td></tr>
+          <tr><td>Red Sky, second</td><td>74</td><td>+2</td><td>73.48</td><td>+0.52</td><td>T55 of 108</td></tr>
+          <tr class="her"><td>Red Sky, final</td><td>68</td><td>&minus;4</td><td>71.16</td><td>&minus;3.16</td><td>T16 of 108</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">Two things only this view shows. <strong>Redbird was not a bad week, it was a bad first round</strong> &mdash; she climbed T40, T11, T6, and that closing 73, filed elsewhere in this page under "no round at par or better", was the best round rank she posted all fall, on the day the field averaged 78.08. And <strong>the Red Sky middle round was worse than the leaderboard made it look</strong>: she sat T26 after 36 holes, but the round itself was T55 of 108, essentially the median. Her position held because of Monday's 69, not because of anything she did on Tuesday. Across all six she beat the field average four times; the two misses were by 0.65 and 0.52.</p>
+
+    <h3 style="margin-top:8px;">She closes</h3>
+    <div class="table-shell">
+      <table>
+        <caption>Fall 2026 average by round position, tournament rounds only</caption>
+        <thead>
+          <tr><th>Position</th><th>Redbird</th><th>Red Sky</th><th>Average</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Round 1</td><td>78</td><td>69</td><td>73.5</td></tr>
+          <tr><td>Round 2</td><td>74</td><td>74</td><td>74.0</td></tr>
+          <tr class="her"><td>Final round</td><td>73</td><td>68</td><td>70.5</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">Both of her career-low 68s &mdash; Wisconsin Badger in September 2025 and Red Sky this month &mdash; were final rounds. Her six-round qualifying ran the same way, 76 down to 70 and 72. Rounds at par or better have held steady at about a third (10 of 29 as a sophomore, 2 of 6 this fall); what has changed is how low the good rounds go, not how often they come. The 78 at Redbird is still in her range, and that tail is what stands between 72.67 and a real sub-73 season.</p>
+
+    <p class="note">Context for the honors column: Denver became a competing member of the West Coast Conference on July 1, 2026, so the Summit League awards are behind her and the schedule has stepped up. Her T23 against USC, Texas A&amp;M, LSU, Pepperdine and Miami at Red Sky is arguably a better result than either of her sophomore top-fives, which came in Summit-caliber fields.</p>
+  </section>
+
+  <section>
+    <h2>The team</h2>
+
+    <div class="table-shell">
+      <table>
+        <caption>Denver team scores, 2026&ndash;27</caption>
+        <thead>
+          <tr><th>Event</th><th>R1</th><th>R2</th><th>Final</th><th>Total</th><th>To par</th><th>Finish</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Lady Redbird Invitational</td><td>294</td><td>302</td><td>296</td><td>892</td><td>+28</td><td>4 / 13</td></tr>
+          <tr class="her"><td>Golfweek Red Sky Classic</td><td>283</td><td>298</td><td>279</td><td>860</td><td>&minus;4</td><td>10 / 20</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <dl class="stats">
+      <div class="stat">
+        <dt>Round average</dt>
+        <dd>292.0</dd>
+        <div class="sub">6 rounds &middot; 299.3 last season</div>
+      </div>
+      <div class="stat">
+        <dt>Final-round avg</dt>
+        <dd class="v-under">287.5</dd>
+        <div class="sub">300.4 last season</div>
+      </div>
+      <div class="stat">
+        <dt>Closing swing</dt>
+        <dd class="v-under">&minus;4.5</dd>
+        <div class="sub">final round vs event average; +1.1 last season</div>
+      </div>
+      <div class="stat">
+        <dt>Low team round</dt>
+        <dd class="v-under">279</dd>
+        <div class="sub">Red Sky, final round</div>
+      </div>
+    </dl>
+
+    <h3 style="margin-top:8px;">How rare 279 is</h3>
+    <p class="note">Every Denver team round since the 2023&ndash;24 opener, in order. Four rounds have gone below 280 in three seasons, and before Red Sky the last one was the 275 that closed out the 2024 Summit League title on April 23, 2024 &mdash; <strong>68 team rounds and 29 months</strong> earlier.</p>
+    <div class="chart-shell">
+      <svg id="teamrounds" viewBox="0 0 720 268" role="img" aria-label="Dot chart of every Denver women's golf team round from 2023-24 through September 2026, with a reference line at 280. Four rounds fall below the line: 272 and 278 at the 2023 Ron Moore Intercollegiate, 275 twice at the 2024 Summit League Championship, and 279 at the 2026 Red Sky Classic."></svg>
+    </div>
+    <div class="legend">
+      <span><i class="dot dot-sub"></i> Round of 279 or better</span>
+      <span><i class="dot dot-reg"></i> All other rounds</span>
+    </div>
+
+    <div class="table-shell">
+      <table>
+        <caption>Season by season</caption>
+        <thead>
+          <tr><th>Season</th><th>Rounds</th><th>Round avg</th><th>Final-round avg</th><th>Low round</th><th>Sub-280</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>2023&ndash;24</td><td>30</td><td>290.9</td><td>290.5</td><td>272</td><td>4</td></tr>
+          <tr><td>2024&ndash;25</td><td>30</td><td>291.8</td><td>292.5</td><td>280</td><td>0</td></tr>
+          <tr><td>2025&ndash;26</td><td>30</td><td>299.3</td><td>300.4</td><td>286</td><td>0</td></tr>
+          <tr class="her"><td>2026&ndash;27</td><td>6</td><td>292.0</td><td>287.5</td><td>279</td><td>1</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p class="note">Red Sky against itself is the cleanest read: 288-305-301 for 894 and 15th place in 2025, against 283-298-279 for 860 and 10th in 2026 &mdash; the closing round 22 strokes better, the week 34. Next test is the Ron Moore Intercollegiate, October 2&ndash;4, back at Highlands Ranch.</p>
+
+    <h3 style="margin-top:8px;">What the middle round cost</h3>
+    <div class="table-shell">
+      <table>
+        <caption>Denver against the Red Sky field, round by round</caption>
+        <thead>
+          <tr><th>Round</th><th>Denver</th><th>Field avg</th><th>vs field</th><th>Rank in round</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>One</td><td>283</td><td>289.3</td><td>&minus;6.3</td><td>6 of 20</td></tr>
+          <tr class="her"><td>Two</td><td>298</td><td>289.5</td><td>+8.6</td><td>T16 of 20</td></tr>
+          <tr><td>Three</td><td>279</td><td>281.0</td><td>&minus;2.0</td><td>10 of 20</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">Only three teams in the field played day two worse against the field than Denver did &mdash; ULM, UNC Asheville and Little Rock. With nothing more than an average round in that slot Denver finishes <strong>851 (&minus;13) in 8th</strong> rather than 860 in 10th; fifth place would still have needed a 271. The counting scores on Tuesday were 74-74-74-76, so there was no blow-up to point at, just four flat rounds at once. That is the whole difference between the week they had and the week the golf deserved.</p>
+
+    <h3 style="margin-top:8px;">The team result, read by field</h3>
+
+    <blockquote class="verdict">
+      <p>860 would have been 4th in 2024 and 5th in 2025. In 2026 it was 10th.</p>
+      <p class="verdict-sub">Denver's best team week at Red Sky in three years produced their second-best finish there, because the score needed to make the top ten fell 26 strokes in a single year.</p>
+    </blockquote>
+
+    <div class="chart-shell">
+      <svg id="teamfield" viewBox="0 0 720 230" role="img" aria-label="Bar chart showing that a 54-hole team total of 860 would have finished 4th in the 2024 Red Sky Classic, 5th in 2025, and 10th in 2026."></svg>
+    </div>
+
+    <div class="table-shell">
+      <table class="sof">
+        <caption>Red Sky team field, 54-hole totals against a team par of 864</caption>
+        <thead>
+          <tr><th>Year</th><th>Tier</th><th>Teams</th><th>Majors</th><th>Winner</th><th>5th</th><th>10th</th><th>Median</th><th>Denver</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>2024</td><td><span class="tier t-strong">Strong</span></td><td>16</td><td>2</td><td>849</td><td>867</td><td>882</td><td>879.5</td><td>867 &middot; 5th</td></tr>
+          <tr><td>2025</td><td><span class="tier t-elite">Elite</span></td><td>20</td><td>6</td><td>819</td><td>863</td><td>886</td><td>886</td><td>894 &middot; 15th</td></tr>
+          <tr class="her"><td>2026</td><td><span class="tier t-elite">Elite</span></td><td>20</td><td>7</td><td>817</td><td>833</td><td>860</td><td>861</td><td>860 &middot; 10th</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p class="note">The pattern is the individual one at team scale. Denver shot 867 for 5th in 2024 and 860 for 10th in 2026 &mdash; seven strokes better, five places worse. The 10th-place line moved from 886 to 860 between 2025 and 2026 while the field stayed at 20 teams; what changed was who filled them, with Texas A&amp;M joining USC, LSU, Miami, Arizona, Kansas and Pepperdine. USC's winning 817 broke the tournament record of 819 they had set the year before.</p>
+
+    <p class="note">Two things follow. The 860 is a genuinely better week than the 867 that finished 5th, and it was Denver's first under-par team total at Red Sky in these three years (+3, then +30, then &minus;4). But the 2026 field also pushed them from a team that beats the median comfortably to one that sits on it &mdash; 19.5 strokes clear of the median in 2024, 1 stroke clear in 2026. Moving to the West Coast Conference means more weeks that look like the second number.</p>
+  </section>
+
+  <section>
+    <h2>The schedule ahead</h2>
+
+    <p class="note">Nine events, down from ten last season. Every field is graded here by the one thing that can be checked in advance: where the entered teams finished the 2025&ndash;26 national ranking. Denver ended that season <strong>113th</strong>, so the column that matters most is the last number before the names: how many teams in each field outranked them.</p>
+
+    <div class="table-shell">
+      <table class="sof">
+        <caption>2026&ndash;27, every event and who is in it</caption>
+        <thead>
+          <tr><th>Event</th><th>Dates</th><th>Tier</th><th>Teams</th><th>Top 50</th><th>Top 100</th><th>Above DU</th><th>Field headliners, by 2026 rank</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Redbird Invitational</td><td>Sep 13&ndash;14</td><td><span class="tier t-reg">Regional</span></td><td>13</td><td>0</td><td>2</td><td>3</td><td class="td-note">played &mdash; 4th of 13, field power 68.6</td></tr>
+          <tr><td>Golfweek Red Sky Classic</td><td>Sep 21&ndash;23</td><td><span class="tier t-elite">Elite</span></td><td>20</td><td>6</td><td>10</td><td>9</td><td class="td-note">played &mdash; 10th of 20; USC 2, Texas A&amp;M 6, Pepperdine 10</td></tr>
+          <tr class="her"><td>Ron Moore Intercollegiate</td><td>Oct 2&ndash;4</td><td><span class="tier t-strong">Strong</span></td><td>15</td><td>1</td><td>9</td><td>9</td><td class="td-note">home &middot; Oregon State 47, Colorado 53, Texas State 54, UNLV 65</td></tr>
+          <tr><td>Jim West Challenge</td><td>Oct 18&ndash;19</td><td><span class="tier t-strong">Strong</span></td><td>11</td><td>2</td><td>7</td><td>7</td><td class="td-note">Missouri 30, TCU 42, Texas State 54, UNLV 65, North Texas 66</td></tr>
+          <tr><td>Wallace Classic</td><td>Feb 13&ndash;15</td><td><span class="tier t-elite">Elite</span></td><td>20</td><td>5</td><td>14</td><td>15</td><td class="td-note">USC 2, Texas 3, Oregon 11, Eastern Michigan 17, Oregon State 47</td></tr>
+          <tr><td>The Alamo Invitational</td><td>Mar 9&ndash;10</td><td><span class="tier t-strong">Strong</span></td><td>15</td><td>3</td><td>8</td><td>9</td><td class="td-note">Texas A&amp;M 6, Houston 27, Virginia Tech 37, Michigan 59</td></tr>
+          <tr><td>Bell Bank Pay it Forward</td><td>Mar 22&ndash;23</td><td><span class="tier t-reg">Regional</span></td><td>18</td><td>0</td><td>3</td><td>5</td><td class="td-note">Minnesota 74, Nebraska 78, Washington State 106, Grand Canyon 111</td></tr>
+          <tr><td>Boilermaker Spring Classic</td><td>Apr 11&ndash;12</td><td><span class="tier t-mid">Mid</span></td><td>14</td><td>2</td><td>4</td><td>4</td><td class="td-note">Northwestern 31, Purdue 43, Minnesota 74, Wisconsin 94</td></tr>
+          <tr><td>WCC Championship</td><td>Apr 23&ndash;25</td><td><span class="tier t-mid">Mid</span></td><td>6</td><td>1</td><td>2</td><td>3</td><td class="td-note">Pepperdine 10, Santa Clara 79, Augusta 104</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">The tier column is a <em>projection</em>, not a WAGR power rating &mdash; power only exists once an event has been played. It is cut from the entered field: <span class="tier t-elite">Elite</span> four or more top-50 teams, <span class="tier t-strong">Strong</span> a top-50 team with more than half the field inside the top 100, <span class="tier t-mid">Mid</span> a top-100 leader but thin depth behind it, <span class="tier t-reg">Regional</span> no top-50 team at all. The rule reproduces the known cases: it grades Redbird as Regional, which rated 68.6, and it grades Ron Moore and the Boilermaker as Strong and Mid, which is where their 2025 and 2026 editions actually landed at 292 and 237.</p>
+
+    <p class="note">Two fields include teams Clippd has not ranked; those are excluded from the counts. The 2027 WCC Championship field here is Clippd's own entry list, which confirms all six teams including Santa Clara &mdash; the one the published schedules had left open.</p>
+
+    <blockquote class="verdict">
+      <p>Played to form, this schedule finishes 56-64. The at-large gate is .500.</p>
+      <p class="verdict-sub">Denver faces 123 opponents across the nine events and has already beaten 19 of 31. If the remaining seven finish exactly to ranking &mdash; beat everyone below them, lose to everyone above &mdash; they add 37 wins and 52 losses and end at <strong>.455</strong>. Reaching .500 takes 62 wins, so the season needs <strong>six results better than chalk</strong>, about one upset per event, before the .500 rule stops being the thing that ends their at-large case.</p>
+    </blockquote>
+
+    <h3 style="margin-top:8px;">Where the opportunity is</h3>
+    <p class="note">The ranking pays for beating ranked teams and charges little for losing to better ones, so the three kinds of week on this card are not equally worth playing well.</p>
+
+    <ol class="ranked">
+      <li>
+        <span class="rank-n">1</span>
+        <span class="rank-body"><strong>Free swings &mdash; Wallace, Alamo, Jim West</strong>
+        <span class="rank-sub">Denver is the underdog against 31 of the 43 teams across these three. Losses to USC, Texas, Oregon and Texas A&amp;M cost almost nothing; a single top-half week against that company is worth more to the ranking than winning Bell Bank outright. The Wallace Classic is the strongest field on the card and the closest thing to a Red Sky repeat.</span></span>
+      </li>
+      <li>
+        <span class="rank-n">2</span>
+        <span class="rank-body"><strong>The pivots &mdash; Ron Moore and the WCC Championship</strong>
+        <span class="rank-sub">Both are winnable and both matter. Ron Moore is at Highlands Ranch, where Hale has shot 211 for T5 and was one under par over four qualifying rounds this month, and where nine of fourteen opponents outrank Denver &mdash; the best risk-to-reward week of the fall. The conference title is the only automatic path to a regional.</span></span>
+      </li>
+      <li>
+        <span class="rank-n">3</span>
+        <span class="rank-body"><strong>Must-holds &mdash; Bell Bank and Boilermaker</strong>
+        <span class="rank-sub">Denver outranks 19 of the 30 teams across these two; the median entrant sits 143rd and 159th. There is no ranking upside here and real damage available: these are the weeks that quietly cost a season, and they fall in the back half of the spring, exactly where last year's slide happened.</span></span>
+      </li>
+    </ol>
+
+    <p class="note">One structural note. The move to the WCC was supposed to mean deeper fields, and at the top of the calendar it has not yet: last season Denver played the PING ASU Invitational at 756 for power and the FAU Paradise Invitational at 318, and neither is on this card. Wallace, at 626, is the only field left on the schedule that rates with the best of last year's. The conference championship, meanwhile, has gone from eight teams to six. The depth arrived at Red Sky in September; it does not obviously arrive again until February.</p>
+
+    <p class="note" style="font-size:13.5px;">Field entries are Clippd's published participant lists as of September 26 and can still change. Rankings are the final 2025&ndash;26 national list, which is the only complete one available until the 2026&ndash;27 rankings open in October. Clippd's own team page still lists Denver's conference as the Summit League &mdash; stale on their side, worth knowing since the same platform produces the ranking the selection committee uses.</p>
+  </section>
+
+  <section>
+    <h2>The conference ahead</h2>
+
+    <blockquote class="verdict">
+      <p>Denver's new conference has six teams in it, and one of them is ranked tenth in the country.</p>
+      <p class="verdict-sub">Gonzaga, Washington State and Oregon State left for the rebuilt Pac-12 on July 1 and Denver replaced them, so the championship field drops from eight teams to six. Six of the WCC's ten full members sponsor no women's golf at all. The championship is April 23&ndash;25, 2027 at Pumpkin Ridge Golf Club, North Plains, Oregon.</p>
+    </blockquote>
+
+    <p class="note">Pepperdine is the conference, in the way Denver was never quite the Summit League: four titles in the last five years, twenty-three overall, and a No. 10 national ranking. The other four opponents ranked 79th, 104th, 126th and 132nd last season. This is a league with one great team, one good one, and a scramble underneath.</p>
+
+    <h3 style="margin-top:8px;">Against the leader</h3>
+    <p class="note">The head-to-head already exists, and it is as clean as these things get: same course, same three days, three weeks ago.</p>
+
+    <div class="table-shell">
+      <table>
+        <caption>Pepperdine and Denver at Red Sky, September 21&ndash;23</caption>
+        <thead>
+          <tr><th>Round</th><th>Pepperdine</th><th>Denver</th><th>Gap</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>One</td><td>280</td><td>283</td><td>+3</td></tr>
+          <tr class="her"><td>Two</td><td>280</td><td>298</td><td>+18</td></tr>
+          <tr><td>Three</td><td>272</td><td>279</td><td>+7</td></tr>
+          <tr><td>54 holes</td><td>832 &middot; T3</td><td>860 &middot; 10th</td><td>+28</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">Twenty-eight strokes is 9.3 per round, or 2.3 per counting player per round. But the shape matters more than the total: <strong>Denver's best round was seven off Pepperdine's best, their worst was eighteen off.</strong> Two-thirds of the entire gap is one round. Against the team they now have to beat, the problem is consistency, not ceiling &mdash; which is the same finding as the middle-round table above, pointed at a different question.</p>
+
+    <h3 style="margin-top:8px;">Projecting the 2027 championship</h3>
+    <p class="note">Margins are 54-hole, built from this fall. Denver has met Pepperdine and Augusta directly. No event has held both Denver and the Santa Clara group, so those three are bridged through Eastern Michigan, who won at Chambers Bay in September and finished 6th at Red Sky.</p>
+
+    <div class="table-shell">
+      <table class="sof">
+        <caption>Projected finish, 2027 WCC Championship</caption>
+        <thead>
+          <tr><th>Proj.</th><th>Team</th><th>2026 rank</th><th>Fall, to par/rd</th><th>vs Denver</th><th>Basis</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Pepperdine</td><td>10</td><td>&minus;6.83</td><td>+28</td><td class="td-note">head-to-head, Red Sky</td></tr>
+          <tr><td>2</td><td>Augusta</td><td>104</td><td>+3.12</td><td>+13</td><td class="td-note">head-to-head, Redbird</td></tr>
+          <tr class="her"><td>3</td><td>Denver</td><td>113</td><td>+4.00</td><td>&mdash;</td><td class="td-note">&mdash;</td></tr>
+          <tr><td>4</td><td>Santa Clara</td><td>79</td><td>+8.00</td><td>&minus;8</td><td class="td-note">via Eastern Michigan</td></tr>
+          <tr><td>5</td><td>San Francisco</td><td>126</td><td>+9.33</td><td>&minus;16</td><td class="td-note">via Eastern Michigan</td></tr>
+          <tr><td>6</td><td>Seattle U</td><td>132</td><td>+14.83</td><td>&minus;30</td><td class="td-note">via Eastern Michigan</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">Pepperdine winning is close to a lock &mdash; nothing else in the field is within twenty strokes of them. <strong>Second through fourth is a genuine scramble.</strong> The Augusta gap is thirteen strokes on the one head-to-head but under three on season-to-par, and the Santa Clara gap of eight sits well inside the ten-to-twelve stroke standard deviation of a 54-hole team total. Santa Clara also ranked 34 places above Denver last season on one event's worth of fall evidence, so that row is the least settled on the page. Fifth and sixth look settled.</p>
+
+    <h3 style="margin-top:8px;">If Denver finishes second</h3>
+    <p class="note">The conference champion takes an automatic bid to an NCAA regional. Everyone else is an at-large case &mdash; and the at-large is decided by the national ranking, not by the conference finish. Seventy-two teams make regionals across six sites; in 2026 that was 29 automatic bids and 43 at-large.</p>
+
+    <div class="table-shell">
+      <table>
+        <caption>What an at-large has required</caption>
+        <thead>
+          <tr><th>Measure</th><th>Value</th><th>Note</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>At-large line, 2025</td><td>No. 57</td><td class="td-note">UC Davis, last team in</td></tr>
+          <tr><td>At-large line, 2026</td><td>No. 51</td><td class="td-note">Colorado, last team in</td></tr>
+          <tr class="her"><td>Denver, final 2026</td><td>No. 113</td><td class="td-note">17.73 average weighted points</td></tr>
+          <tr><td>Points needed</td><td>&asymp; 32.7</td><td class="td-note">nearly double what they earned</td></tr>
+          <tr><td>Denver's best, 2025</td><td>No. 66</td><td class="td-note">still nine below that year's line</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">There is a second gate as well: the .500 rule requires fifteen rounds and a Division I record of .500 or better. Denver was <strong>53-77-2</strong> last season, and a sub-.500 team is ineligible whatever its ranking &mdash; three teams inside the top 70 missed the 2026 field on exactly that. The scenario has also already run once: Denver finished second in the Summit League last April, was not selected, and played the Golfweek National Golf Invitational instead, where they finished second. <strong>Conditional on a runner-up finish, an at-large bid is worth about one chance in ten.</strong></p>
+
+    <p class="note">One number argues it is not absurd. At Red Sky, Denver shot 860 and beat <strong>Colorado head-to-head, 860 to 867</strong> &mdash; and Colorado was the last team into the 2026 NCAA field, at No. 51. One event is not a season, but it is the right kind of evidence. The realistic route remains the conference title, which means closing 9.3 strokes a round on Pepperdine.</p>
+
+    <p class="note"><strong>One thing worth confirming with the conference.</strong> An NCAA automatic qualifier requires six sponsoring members that have competed together for two years, with no waivers &mdash; the Patriot League lost its women's golf AQ in July 2026 for being one program short. The WCC will have exactly six, and three of them &mdash; Denver, Seattle U and Augusta &mdash; are recent additions. Nothing published addresses whether that affects the WCC's bid. If the AQ did not hold, every team in the conference would be an at-large case.</p>
+  </section>
+
+  <section>
+    <h2>What the fall has shown</h2>
+    <p class="note">She is the team's most reliable scorer rather than its most explosive one. Across twelve fall rounds she has not gone lower than 68 or higher than 78, while teammates have ranged from 66 to 82. The fall divides less cleanly than the scores suggest. Through qualifying and Redbird she was steady but over par, third on the team and without a round at par or better &mdash; yet ranked inside its own field, her closing 73 at Redbird was the best round she has played this season. At Red Sky she counted all three rounds, took the low Denver score twice, and beat the field average by more than seven shots over the week. Two events is a small sample, but the second one came against the strongest field of her career, which is the more meaningful signal.</p>
+  </section>
+
+  <footer>
+    <div>An unofficial family tracker. Not affiliated with the University of Denver or the West Coast Conference. <a href="./">Back to the season card</a>.</div>
+    <div>Current through the Golfweek Red Sky Classic, September 23, 2026. Analysis updated September 26. Next results expected from the Ron Moore Intercollegiate, October 2&ndash;4.</div>
+    <div>Scores from <a href="https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&amp;tid=29499">Golfstat</a>, <a href="https://scoreboard.clippd.com/">Scoreboard powered by Clippd</a> and the <a href="https://denverpioneers.com/sports/womens-golf/schedule/2026-27">Denver athletics schedule archive</a>. Ranking figures from <a href="https://www.wagr.com/playerprofile/logan-hale-42031">WAGR</a> and the National Collegiate Golf Ranking; selection rules from the NCAA Division I women's golf pre-championship manual. Qualifying pars derived from the published to-par column; per-round field ranks computed from the full leaderboards.</div>
+  </footer>
+</div>
+
+<script>
+(function(){
+  var rounds = [
+    {ev:"Qualifying", lab:"Q1", score:76, tp:6},
+    {ev:"Qualifying", lab:"Q2", score:73, tp:1},
+    {ev:"Qualifying", lab:"Q3", score:72, tp:2},
+    {ev:"Qualifying", lab:"Q4", score:72, tp:0},
+    {ev:"Qualifying", lab:"Q5", score:70, tp:-2},
+    {ev:"Qualifying", lab:"Q6", score:72, tp:0},
+    {ev:"Redbird",    lab:"RB1", score:78, tp:6},
+    {ev:"Redbird",    lab:"RB2", score:74, tp:2},
+    {ev:"Redbird",    lab:"RB3", score:73, tp:1},
+    {ev:"Red Sky",    lab:"RS1", score:69, tp:-3},
+    {ev:"Red Sky",    lab:"RS2", score:74, tp:2},
+    {ev:"Red Sky",    lab:"RS3", score:68, tp:-4}
+  ];
+  var groups = [
+    {label:"QUALIFYING", from:0, to:5},
+    {label:"REDBIRD",    from:6, to:8},
+    {label:"RED SKY",    from:9, to:11}
+  ];
+
+  var W = 720, H = 300, L = 46, R = 14, T = 28, B = 70;
+  var TOP = -4, BOT = 6, UNIT = (H - T - B) / (BOT - TOP);
+  var y = function(v){ return T + (v - TOP) * UNIT; };
+  var zero = y(0);
+  var step = (W - L - R) / rounds.length;
+  var bw = Math.min(36, step - 30);
+
+  var NS = "http://www.w3.org/2000/svg";
+  var svg = document.getElementById("trend");
+  if(!svg) return;
+
+  function el(name, attrs, text){
+    var n = document.createElementNS(NS, name);
+    for(var k in attrs){ n.setAttribute(k, attrs[k]); }
+    if(text !== undefined) n.textContent = text;
+    svg.appendChild(n);
+    return n;
+  }
+
+  var css = getComputedStyle(document.documentElement);
+  var C = {
+    under: css.getPropertyValue("--under").trim() || "#A32B2B",
+    over: css.getPropertyValue("--over").trim() || "#3E5C76",
+    even: css.getPropertyValue("--even").trim() || "#8A7E81",
+    rule: css.getPropertyValue("--rule").trim() || "#E2DBDA",
+    ruleStrong: css.getPropertyValue("--rule-strong").trim() || "#C9BFBE",
+    ink2: css.getPropertyValue("--ink-2").trim() || "#584E51",
+    ink3: css.getPropertyValue("--ink-3").trim() || "#8A7E81"
+  };
+  var MONO = '"IBM Plex Mono", ui-monospace, Menlo, monospace';
+  var DISP = '"Archivo", Helvetica, Arial, sans-serif';
+
+  // gridlines + axis labels
+  [-4,-2,0,2,4,6].forEach(function(v){
+    var yy = y(v);
+    el("line", {x1:L, x2:W-R, y1:yy, y2:yy,
+      stroke: v === 0 ? C.ruleStrong : C.rule,
+      "stroke-width": v === 0 ? 1.5 : 1});
+    el("text", {x:L-10, y:yy+4, "text-anchor":"end",
+      fill:C.ink3, "font-family":MONO, "font-size":11},
+      v === 0 ? "E" : (v > 0 ? "+" + v : "−" + Math.abs(v)));
+  });
+
+  // rounded-end bar path
+  function bar(cx, v){
+    var x0 = cx - bw/2, x1 = cx + bw/2, r = 4;
+    if(v === 0) return null;
+    if(v < 0){
+      var top = y(v);
+      return "M"+x0+","+zero+" L"+x0+","+(top+r)+
+             " Q"+x0+","+top+" "+(x0+r)+","+top+
+             " L"+(x1-r)+","+top+" Q"+x1+","+top+" "+x1+","+(top+r)+
+             " L"+x1+","+zero+" Z";
+    }
+    var bot = y(v);
+    return "M"+x0+","+zero+" L"+x0+","+(bot-r)+
+           " Q"+x0+","+bot+" "+(x0+r)+","+bot+
+           " L"+(x1-r)+","+bot+" Q"+x1+","+bot+" "+x1+","+(bot-r)+
+           " L"+x1+","+zero+" Z";
+  }
+
+  rounds.forEach(function(d, i){
+    var cx = L + step * i + step / 2;
+    var color = d.tp < 0 ? C.under : (d.tp > 0 ? C.over : C.even);
+    var p = bar(cx, d.tp);
+
+    if(p){
+      el("path", {d:p, fill:color});
+    } else {
+      el("rect", {x:cx-bw/2, y:zero-1.5, width:bw, height:3, fill:C.even, rx:1.5});
+    }
+
+    // to-par label on the data end
+    var ly = d.tp < 0 ? y(d.tp) - 9 : (d.tp > 0 ? y(d.tp) + 15 : zero - 9);
+    el("text", {x:cx, y:ly, "text-anchor":"middle", fill:color,
+      "font-family":MONO, "font-size":12, "font-weight":600},
+      d.tp === 0 ? "E" : (d.tp > 0 ? "+" + d.tp : "−" + Math.abs(d.tp)));
+
+    // score + round label under the plot
+    el("text", {x:cx, y:H-38, "text-anchor":"middle", fill:C.ink2,
+      "font-family":MONO, "font-size":13, "font-weight":500}, d.score);
+    el("text", {x:cx, y:H-24, "text-anchor":"middle", fill:C.ink3,
+      "font-family":DISP, "font-size":10, "font-weight":600,
+      "letter-spacing":"0.08em"}, d.lab.toUpperCase());
+
+    var t = document.createElementNS(NS, "title");
+    t.textContent = d.ev + " " + d.lab + " — " + d.score;
+    svg.lastChild.appendChild(t);
+  });
+
+  // event dividers and centred group labels
+  groups.forEach(function(g, gi){
+    if(gi > 0){
+      var divX = L + step * g.from;
+      el("line", {x1:divX, x2:divX, y1:T, y2:H-8,
+        stroke:C.ruleStrong, "stroke-width":1, "stroke-dasharray":"3 4"});
+    }
+    var mid = L + step * (g.from + (g.to - g.from + 1) / 2);
+    el("text", {x:mid, y:H-4, "text-anchor":"middle", fill:C.ink3,
+      "font-family":DISP, "font-size":10, "font-weight":600,
+      "letter-spacing":"0.1em"}, g.label);
+  });
+})();
+</script>
+
+<script>
+(function(){
+  var seasons = [
+    {name:"2023–24", short:"23–24", rounds:[303,290,290, 289,298,290, 272,278,294, 307,293,291, 285,285,291, 297,301,296, 287,289,294, 295,299,296, 275,300,275, 290,289,288]},
+    {name:"2024–25", short:"24–25", rounds:[293,281,293, 280,294,291, 298,300,299, 283,290,292, 293,299,298, 293,293,287, 286,281,295, 292,292,292, 286,292,281, 305,298,297]},
+    {name:"2025–26", short:"25–26", rounds:[299,294,298, 288,305,301, 286,288,293, 311,296,294, 308,309,307, 299,303,308, 299,299,308, 302,300,315, 302,298,288, 298,291,292]},
+    {name:"2026–27", short:"26–27", rounds:[294,302,296, 283,298,279]}
+  ];
+
+  var all = [], bounds = [], idx = 0;
+  seasons.forEach(function(s){
+    bounds.push({start:idx, end:idx + s.rounds.length, label:s.short});
+    s.rounds.forEach(function(v){ all.push({v:v, season:s.name}); });
+    idx += s.rounds.length;
+  });
+
+  var W = 720, H = 268, L = 44, R = 14, T = 28, B = 52;
+  var LO = 270, HI = 316;
+  var k = (H - T - B) / (HI - LO);
+  var y = function(v){ return T + (v - LO) * k; };
+  var step = (W - L - R) / all.length;
+  var x = function(i){ return L + step * i + step / 2; };
+
+  var NS = "http://www.w3.org/2000/svg";
+  var svg = document.getElementById("teamrounds");
+  if(!svg) return;
+
+  function el(name, attrs, text, parent){
+    var n = document.createElementNS(NS, name);
+    for(var a in attrs){ n.setAttribute(a, attrs[a]); }
+    if(text !== undefined) n.textContent = text;
+    (parent || svg).appendChild(n);
+    return n;
+  }
+
+  var css = getComputedStyle(document.documentElement);
+  var C = {
+    under: css.getPropertyValue("--under").trim() || "#A32B2B",
+    rule: css.getPropertyValue("--rule").trim() || "#E2DBDA",
+    ruleStrong: css.getPropertyValue("--rule-strong").trim() || "#C9BFBE",
+    ink3: css.getPropertyValue("--ink-3").trim() || "#8A7E81"
+  };
+  var MONO = '"IBM Plex Mono", ui-monospace, Menlo, monospace';
+  var DISP = '"Archivo", Helvetica, Arial, sans-serif';
+
+  [270,280,290,300,310].forEach(function(v){
+    var yy = y(v);
+    el("line", {x1:L, x2:W-R, y1:yy, y2:yy, stroke:C.rule, "stroke-width":1});
+    el("text", {x:L-10, y:yy+4, "text-anchor":"end", fill:C.ink3,
+      "font-family":MONO, "font-size":11}, v);
+  });
+
+  // the 280 threshold
+  el("line", {x1:L, x2:W-R, y1:y(280), y2:y(280),
+    stroke:C.under, "stroke-width":1.25, "stroke-dasharray":"5 4", opacity:"0.75"});
+
+  // season dividers + labels
+  bounds.forEach(function(b, n){
+    if(n > 0){
+      var dx = L + step * b.start;
+      el("line", {x1:dx, x2:dx, y1:T, y2:H-B+6,
+        stroke:C.ruleStrong, "stroke-width":1, "stroke-dasharray":"3 4"});
+    }
+    var mid = (x(b.start) + x(b.end - 1)) / 2;
+    el("text", {x:mid, y:H-16, "text-anchor":"middle", fill:C.ink3,
+      "font-family":DISP, "font-size":10, "font-weight":600,
+      "letter-spacing":"0.09em"}, b.label);
+  });
+
+  all.forEach(function(d, i){
+    var sub = d.v <= 279;
+    var c = el("circle", {cx:x(i), cy:y(d.v), r: sub ? 5 : 2.6,
+      fill: sub ? C.under : C.ink3, opacity: sub ? 1 : 0.55});
+    el("title", {}, d.season + " — " + d.v, c);
+  });
+
+  el("text", {x:x(6.5), y:y(272)-10, "text-anchor":"middle", fill:C.under,
+    "font-family":MONO, "font-size":11, "font-weight":600}, "272 · 278");
+  el("text", {x:x(25), y:y(275)-10, "text-anchor":"middle", fill:C.under,
+    "font-family":MONO, "font-size":11, "font-weight":600}, "275 · 275");
+  el("text", {x:x(95)-4, y:y(279)-11, "text-anchor":"end", fill:C.under,
+    "font-family":MONO, "font-size":11, "font-weight":600}, "279");
+
+  el("text", {x:x(6.5), y:y(272)-24, "text-anchor":"middle", fill:C.ink3,
+    "font-family":DISP, "font-size":9.5, "font-weight":600,
+    "letter-spacing":"0.07em"}, "RON MOORE '23");
+  el("text", {x:x(25), y:y(275)-24, "text-anchor":"middle", fill:C.ink3,
+    "font-family":DISP, "font-size":9.5, "font-weight":600,
+    "letter-spacing":"0.07em"}, "SUMMIT LEAGUE '24");
+  el("text", {x:x(95)-4, y:y(279)-25, "text-anchor":"end", fill:C.ink3,
+    "font-family":DISP, "font-size":9.5, "font-weight":600,
+    "letter-spacing":"0.07em"}, "RED SKY '26");
+})();
+</script>
+
+<script>
+(function(){
+  var data = [
+    {yr:"2024", place:7,  players:86,  note:"86 players"},
+    {yr:"2025", place:11, players:100, note:"100 players"},
+    {yr:"2026", place:23, players:108, note:"108 players"}
+  ];
+
+  var W = 720, H = 240, L = 54, R = 16, T = 26, B = 58;
+  var MAX = 26;
+  var k = (H - T - B) / MAX;
+  var y = function(v){ return T + v * k; };
+  var step = (W - L - R) / data.length;
+
+  var NS = "http://www.w3.org/2000/svg";
+  var svg = document.getElementById("fieldshift");
+  if(!svg) return;
+
+  function el(name, attrs, text, parent){
+    var n = document.createElementNS(NS, name);
+    for(var a in attrs){ n.setAttribute(a, attrs[a]); }
+    if(text !== undefined) n.textContent = text;
+    (parent || svg).appendChild(n);
+    return n;
+  }
+
+  var css = getComputedStyle(document.documentElement);
+  var C = {
+    under: css.getPropertyValue("--under").trim() || "#A32B2B",
+    over: css.getPropertyValue("--over").trim() || "#3E5C76",
+    rule: css.getPropertyValue("--rule").trim() || "#E2DBDA",
+    ink2: css.getPropertyValue("--ink-2").trim() || "#584E51",
+    ink3: css.getPropertyValue("--ink-3").trim() || "#8A7E81"
+  };
+  var MONO = '"IBM Plex Mono", ui-monospace, Menlo, monospace';
+  var DISP = '"Archivo", Helvetica, Arial, sans-serif';
+
+  [1,5,10,15,20,25].forEach(function(v){
+    var yy = y(v);
+    el("line", {x1:L, x2:W-R, y1:yy, y2:yy, stroke:C.rule, "stroke-width":1});
+    el("text", {x:L-10, y:yy+4, "text-anchor":"end", fill:C.ink3,
+      "font-family":MONO, "font-size":11}, v === 1 ? "1st" : v);
+  });
+
+  var bw = Math.min(88, step - 70);
+
+  data.forEach(function(d, i){
+    var cx = L + step * i + step / 2;
+    var top = y(1), bot = y(d.place), r = 4;
+    var x0 = cx - bw/2, x1 = cx + bw/2;
+    var color = d.place >= 20 ? C.under : C.over;
+    el("path", {d:"M"+x0+","+top+" L"+x0+","+(bot-r)+
+      " Q"+x0+","+bot+" "+(x0+r)+","+bot+
+      " L"+(x1-r)+","+bot+" Q"+x1+","+bot+" "+x1+","+(bot-r)+
+      " L"+x1+","+top+" Z", fill:color, opacity: d.place >= 20 ? 1 : 0.85});
+
+    el("text", {x:cx, y:bot + 20, "text-anchor":"middle", fill:color,
+      "font-family":MONO, "font-size":15, "font-weight":600},
+      (function(n){ var s=["th","st","nd","rd"], v=n%100; return n + (s[(v-20)%10] || s[v] || s[0]); })(d.place));
+
+    el("text", {x:cx, y:H-30, "text-anchor":"middle", fill:C.ink2,
+      "font-family":DISP, "font-size":13, "font-weight":600,
+      "letter-spacing":"0.05em"}, d.yr);
+    el("text", {x:cx, y:H-14, "text-anchor":"middle", fill:C.ink3,
+      "font-family":DISP, "font-size":10.5}, d.note);
+  });
+
+  el("text", {x:L, y:14, "text-anchor":"start", fill:C.ink3,
+    "font-family":DISP, "font-size":10.5, "font-weight":600,
+    "letter-spacing":"0.09em"}, "FINISHING POSITION OF A 54-HOLE 211");
+})();
+</script>
+
+<script>
+(function(){
+  var data = [
+    {yr:"2024", place:4,  note:"16 teams · 2 majors"},
+    {yr:"2025", place:5,  note:"20 teams · 6 majors"},
+    {yr:"2026", place:10, note:"20 teams · 7 majors"}
+  ];
+
+  var W = 720, H = 230, L = 54, R = 16, T = 26, B = 58;
+  var MAX = 12;
+  var k = (H - T - B) / MAX;
+  var y = function(v){ return T + v * k; };
+  var step = (W - L - R) / data.length;
+
+  var NS = "http://www.w3.org/2000/svg";
+  var svg = document.getElementById("teamfield");
+  if(!svg) return;
+
+  function el(name, attrs, text){
+    var n = document.createElementNS(NS, name);
+    for(var a in attrs){ n.setAttribute(a, attrs[a]); }
+    if(text !== undefined) n.textContent = text;
+    svg.appendChild(n);
+    return n;
+  }
+
+  var css = getComputedStyle(document.documentElement);
+  var C = {
+    under: css.getPropertyValue("--under").trim() || "#A32B2B",
+    over: css.getPropertyValue("--over").trim() || "#3E5C76",
+    rule: css.getPropertyValue("--rule").trim() || "#E2DBDA",
+    ink2: css.getPropertyValue("--ink-2").trim() || "#584E51",
+    ink3: css.getPropertyValue("--ink-3").trim() || "#8A7E81"
+  };
+  var MONO = '"IBM Plex Mono", ui-monospace, Menlo, monospace';
+  var DISP = '"Archivo", Helvetica, Arial, sans-serif';
+
+  [1,3,5,8,10,12].forEach(function(v){
+    var yy = y(v);
+    el("line", {x1:L, x2:W-R, y1:yy, y2:yy, stroke:C.rule, "stroke-width":1});
+    el("text", {x:L-10, y:yy+4, "text-anchor":"end", fill:C.ink3,
+      "font-family":MONO, "font-size":11}, v === 1 ? "1st" : v);
+  });
+
+  var bw = Math.min(88, step - 70);
+  var ord = function(n){ var s=["th","st","nd","rd"], v=n%100; return n + (s[(v-20)%10] || s[v] || s[0]); };
+
+  data.forEach(function(d, i){
+    var cx = L + step * i + step / 2;
+    var top = y(1), bot = y(d.place), r = 4;
+    var x0 = cx - bw/2, x1 = cx + bw/2;
+    var color = d.place >= 10 ? C.under : C.over;
+    el("path", {d:"M"+x0+","+top+" L"+x0+","+(bot-r)+
+      " Q"+x0+","+bot+" "+(x0+r)+","+bot+
+      " L"+(x1-r)+","+bot+" Q"+x1+","+bot+" "+x1+","+(bot-r)+
+      " L"+x1+","+top+" Z", fill:color, opacity: d.place >= 10 ? 1 : 0.85});
+
+    el("text", {x:cx, y:bot + 20, "text-anchor":"middle", fill:color,
+      "font-family":MONO, "font-size":15, "font-weight":600}, ord(d.place));
+
+    el("text", {x:cx, y:H-30, "text-anchor":"middle", fill:C.ink2,
+      "font-family":DISP, "font-size":13, "font-weight":600,
+      "letter-spacing":"0.05em"}, d.yr);
+    el("text", {x:cx, y:H-14, "text-anchor":"middle", fill:C.ink3,
+      "font-family":DISP, "font-size":10.5}, d.note);
+  });
+
+  el("text", {x:L, y:14, "text-anchor":"start", fill:C.ink3,
+    "font-family":DISP, "font-size":10.5, "font-weight":600,
+    "letter-spacing":"0.09em"}, "FINISHING POSITION OF A 54-HOLE TEAM TOTAL OF 860");
+})();
+</script>
+
+<script>
+(function(){
+  var ev = [
+    {p:68.6,  v:3.19, n:"Redbird '26", f:18,  lab:"right"},
+    {p:280.7, v:2.04, f:102},
+    {p:52.5,  v:2.86, f:19},
+    {p:264.6, v:3.46, f:35},
+    {p:74.3,  v:2.57, f:29},
+    {p:57.8,  v:1.51, n:"Summit League '26", f:39, lab:"right"},
+    {p:236.5, v:2.74, f:56},
+    {p:756.2, v:3.65, f:73},
+    {p:109.7, v:6.17, n:"More Than Golf '26 · 3rd", f:3, lab:"right", hi:true},
+    {p:625.8, v:3.60, f:70},
+    {p:318.3, v:3.88, f:36},
+    {p:292.3, v:7.11, n:"Ron Moore '25 · 5th", f:5, lab:"right", hi:true},
+    {p:615.8, v:4.30, n:"Red Sky '25 · T59", f:59, lab:"up"},
+    {p:112.3, v:5.04, f:6},
+    {p:63.3,  v:4.55, f:6},
+    {p:762.6, v:3.93, f:55},
+    {p:111.6, v:5.15, f:5},
+    {p:367.3, v:3.79, f:45},
+    {p:270.8, v:2.51, f:68},
+    {p:770.4, v:6.43, n:"Juli Inkster '25 · 30th", f:30, lab:"left", hi:true},
+    {p:518.0, v:2.85, f:56},
+    {p:238.8, v:2.27, f:61},
+    {p:73.2,  v:4.26, f:8},
+    {p:905.0, v:3.15, n:"Stanford '24 · 92nd", f:92, lab:"left"},
+    {p:279.5, v:2.49, f:61},
+    {p:290.5, v:6.15, n:"Red Sky '24 · 8th", f:8, lab:"right", hi:true}
+  ];
+
+  var W = 720, H = 300, L = 52, R = 90, T = 26, B = 52;
+  var PMAX = 950, VMAX = 8;
+  var pw = W - L - R, ph = H - T - B;
+  var x = function(p){ return L + p / PMAX * pw; };
+  var y = function(v){ return T + (VMAX - v) / VMAX * ph; };
+
+  var NS = "http://www.w3.org/2000/svg";
+  var svg = document.getElementById("wagr");
+  if(!svg) return;
+
+  function el(name, attrs, text){
+    var n = document.createElementNS(NS, name);
+    for(var a in attrs){ n.setAttribute(a, attrs[a]); }
+    if(text !== undefined) n.textContent = text;
+    svg.appendChild(n);
+    return n;
+  }
+
+  var css = getComputedStyle(document.documentElement);
+  var C = {
+    under: css.getPropertyValue("--under").trim() || "#A32B2B",
+    over: css.getPropertyValue("--over").trim() || "#3E5C76",
+    rule: css.getPropertyValue("--rule").trim() || "#E2DBDA",
+    ink2: css.getPropertyValue("--ink-2").trim() || "#584E51",
+    ink3: css.getPropertyValue("--ink-3").trim() || "#8A7E81"
+  };
+  var MONO = '"IBM Plex Mono", ui-monospace, Menlo, monospace';
+  var DISP = '"Archivo", Helvetica, Arial, sans-serif';
+
+  [0,2,4,6,8].forEach(function(v){
+    var yy = y(v);
+    el("line", {x1:L, x2:L+pw, y1:yy, y2:yy, stroke:C.rule, "stroke-width":1});
+    el("text", {x:L-10, y:yy+4, "text-anchor":"end", fill:C.ink3,
+      "font-family":MONO, "font-size":11}, v);
+  });
+  [0,200,400,600,800].forEach(function(p){
+    el("text", {x:x(p), y:H-30, "text-anchor":"middle", fill:C.ink3,
+      "font-family":MONO, "font-size":11}, p);
+  });
+
+  el("text", {x:L, y:14, "text-anchor":"start", fill:C.ink3,
+    "font-family":DISP, "font-size":10.5, "font-weight":600,
+    "letter-spacing":"0.09em"}, "WAGR POINTS EARNED");
+  el("text", {x:L+pw/2, y:H-12, "text-anchor":"middle", fill:C.ink3,
+    "font-family":DISP, "font-size":10.5, "font-weight":600,
+    "letter-spacing":"0.09em"}, "FIELD POWER RATING → STRONGER");
+
+  ev.forEach(function(d){
+    var cx = x(d.p), cy = y(d.v);
+    var c = el("circle", {cx:cx, cy:cy, r: d.hi ? 6 : 4.5,
+      fill: d.hi ? C.under : C.over, opacity: d.hi ? 1 : 0.5});
+    var ttl = document.createElementNS(NS, "title");
+    ttl.textContent = "power " + d.p + " · " + d.v + " pts · finish " + d.f;
+    c.appendChild(ttl);
+  });
+
+  ev.filter(function(d){ return d.n; }).forEach(function(d){
+    var cx = x(d.p), cy = y(d.v);
+    var a = d.lab === "left" ? "end" : d.lab === "up" ? "start" : "start";
+    var lx = d.lab === "left" ? cx - 11 : cx + 11;
+    var ly = d.lab === "up" ? cy - 11 : cy + 4;
+    el("text", {x:lx, y:ly, "text-anchor":a,
+      fill: d.hi ? C.under : C.ink2,
+      "font-family":DISP, "font-size":11.5, "font-weight":600}, d.n);
+  });
+})();
+</script>
+
+</body>
+</html>
