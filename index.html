@@ -198,7 +198,7 @@
         <tbody>
           <tr><td>Her total</td><td>211 (&minus;5)</td><td><strong>209 (&minus;7)</strong></td></tr>
           <tr><td>Finish</td><td>T23 of 108</td><td><strong>T1 of 84</strong></td></tr>
-          <tr><td>Field power, est.</td><td><strong>&asymp;730 &middot; Elite</strong></td><td>&asymp;265 &middot; Strong</td></tr>
+          <tr><td>Field power</td><td><strong>772 &middot; Elite</strong></td><td>&asymp;265 est. &middot; Strong</td></tr>
           <tr><td>Major programs</td><td><strong>8</strong></td><td>2</td></tr>
           <tr><td>Vs field average</td><td>&minus;7.03</td><td><strong>&minus;14.37</strong></td></tr>
           <tr><td>Ranked above her</td><td><strong>30</strong></td><td>21</td></tr>
@@ -212,26 +212,26 @@
 
   <section>
     <h2>Read by field</h2>
-    <p class="note">Field strength here is WAGR's power rating, an independent measure of who actually entered. These are the six strongest fields of her career before this autumn, and what she did in them, with Red Sky added at the foot.</p>
+    <p class="note">Field strength here is WAGR's power rating, an independent measure of who actually entered. These are the seven strongest fields of her career, ordered by power. Red Sky 2026 enters the list second.</p>
     <div class="tbl" style="margin-top:14px;">
       <table>
         <thead><tr><th>Event</th><th>Power</th><th>Players</th><th>Her finish</th></tr></thead>
         <tbody>
           <tr><td>Stanford Intercollegiate, Oct 2024</td><td>905</td><td>98</td><td>92nd</td></tr>
+          <tr class="hi"><td>Red Sky Classic, Sep 2026</td><td>772</td><td>108</td><td>T23</td></tr>
           <tr><td>Juli Inkster Collegiate, Mar 2025</td><td>770</td><td>78</td><td>T30</td></tr>
           <tr><td>NCAA Norman Regional, May 2025</td><td>763</td><td>65</td><td>T55</td></tr>
           <tr><td>PING ASU Invitational, Mar 2026</td><td>756</td><td>88</td><td>T73</td></tr>
           <tr><td>Wallace Classic, Feb 2026</td><td>626</td><td>95</td><td>T70</td></tr>
           <tr><td>Red Sky Classic, Sep 2025</td><td>616</td><td>100</td><td>T59</td></tr>
-          <tr class="hi"><td>Red Sky Classic, Sep 2026</td><td>&asymp;730 <span style="font-family:var(--f-body);font-size:12px;color:var(--ink-3);">est.</span></td><td>108</td><td>T23</td></tr>
         </tbody>
       </table>
     </div>
     <p class="note" style="margin-top:10px;"><strong>Every top-ten finish of her career has come in a field rated 293 or below &mdash; the Ron Moore win included.</strong> Red Sky remains the only week she has combined a strong field with a strong finish.</p>
 
-    <p class="note" style="margin-top:10px;">Red Sky 2026 has not been rated yet &mdash; the 730 is an estimate, not a published figure. It comes from this event's own 2024 and 2025 ratings and from where comparable fields have landed, with a likely range of <strong>660 to 790</strong>. The 2026 field was deeper than 2025's on every measure: 108 players against 100, eight major programs against six, an individual winner four strokes lower and a median six better on the same course. At that strength a T23 of 108 should be worth roughly <strong>7 to 7.5 points</strong> &mdash; around or just past the best haul in her current window, <strong>7.11</strong>, from a T5 at Ron Moore in a field rated 292. WAGR publishes the real number within a few weeks.</p>
+    <p class="note" style="margin-top:10px;">Red Sky 2026 has now been rated. WAGR published week 39 on October 5: the field came in at <strong>772.18</strong> for power and her T23 of 108 paid <strong>7.4296</strong> points &mdash; the richest week of her career on record, passing the 7.11 from a T5 at Ron Moore in 2025. The estimate carried here before publication was &asymp;730 with a range of 660 to 790. Two things follow. It is the <strong>second-strongest field she has ever played</strong>, behind only Stanford at 905, and it is comfortably her best finish in any field rated above 500 &mdash; the previous best was a T30 at the Juli Inkster, rated 770. Her world ranking moved from 2075 to 1875 in the same week.</p>
 
-    <p class="note" style="margin-top:10px;"><strong>Ron Moore has not been rated either.</strong> Its own two previous editions came in at <strong>279.5</strong> and <strong>292.3</strong>, both with three major-conference programs; the 2026 field had two, 84 players and a best-ranked team of 47th, so it should land a little lower &mdash; call it <strong>&asymp;265</strong>, somewhere in 220 to 310. That is Strong, not Elite. A win in a field rated there should be worth roughly <strong>9 to 10 points</strong>, which would be the richest week of her career on record and comfortably past the 7.11 that currently leads her counting window.</p>
+    <p class="note" style="margin-top:10px;"><strong>Ron Moore has not been rated.</strong> It fell in WAGR week 40, which has not published. Its own two previous editions came in at <strong>279.5</strong> and <strong>292.3</strong>, both with three major-conference programs; the 2026 field had two, 84 players and a best-ranked team of 47th, so it should land a little lower &mdash; call it <strong>&asymp;265</strong>, somewhere in 220 to 310. That is Strong, not Elite. A win in a field rated there should be worth roughly <strong>9 to 10 points</strong>, which would pass the 7.43 Red Sky has just posted and become the richest week of her career.</p>
 
     <p class="kick" style="margin-top:22px;">The same score, three fields</p>
     <p class="note">Before Ron Moore, her career had produced three 54-hole totals of 211, all at five under par. Nothing in the raw scoring separates them.</p>
@@ -432,7 +432,7 @@
   var MONO = '"IBM Plex Mono", ui-monospace, Menlo, monospace';
   var DISP = '"Archivo", Helvetica, Arial, sans-serif';
 
-  var W = 700, H = 250, L = 44, Rt = 14, T = 22, B = 60;
+  var W = 700, H = 250, L = 44, Rt = 14, T = 28, B = 60;
   var LO = 67, HI = 79.5;
   var y = function(v){ return T + (v - LO) * (H - T - B) / (HI - LO); };
   var step = (W - L - Rt) / R.length;
