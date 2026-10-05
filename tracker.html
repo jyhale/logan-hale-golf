@@ -97,6 +97,11 @@
     gap:40px;
   }
 
+  .bq-cell{display:flex;align-items:center;gap:8px;justify-content:flex-end;}
+  .bq-fill{display:block;height:10px;border-radius:0 3px 3px 0;background:var(--crimson);max-width:90px;}
+  .bq-dot{width:9px;height:9px;border-radius:50%;background:var(--ink-3);flex:0 0 auto;}
+  .bq-val{font-family:var(--f-mono);font-size:12.5px;font-weight:600;color:var(--ink-2);min-width:34px;text-align:right;}
+  .bq-rk2{font-family:var(--f-mono);font-size:11.5px;color:var(--ink-3);}
   /* ---------- masthead ---------- */
   .mast{display:flex;flex-direction:column;gap:14px;}
   .lockup{display:flex;align-items:center;gap:13px;}
@@ -372,42 +377,42 @@
     <dl class="stats">
       <div class="stat">
         <dt>Scoring average</dt>
-        <dd>72.67</dd>
-        <div class="sub">6 tournament rounds, 436 strokes</div>
+        <dd>71.67</dd>
+        <div class="sub">9 tournament rounds, 645 strokes</div>
       </div>
       <div class="stat">
         <dt>Season to par</dt>
-        <dd class="v-over">+4</dd>
-        <div class="sub">+9 Redbird, &minus;5 Red Sky</div>
+        <dd class="v-under">&minus;3</dd>
+        <div class="sub">+9 Redbird, &minus;5 Red Sky, &minus;7 Ron Moore</div>
       </div>
       <div class="stat">
         <dt>Low round</dt>
-        <dd class="v-under">68</dd>
-        <div class="sub">&minus;4 &middot; Red Sky, final round</div>
+        <dd class="v-under">67</dd>
+        <div class="sub">&minus;5 &middot; Ron Moore, first round &mdash; a career low</div>
       </div>
       <div class="stat">
         <dt>Rounds under par</dt>
-        <dd>2<span style="font-size:17px;color:var(--ink-3);">/6</span></dd>
-        <div class="sub">both at Red Sky</div>
+        <dd>4<span style="font-size:17px;color:var(--ink-3);">/9</span></dd>
+        <div class="sub">two at Red Sky, two at Ron Moore</div>
       </div>
       <div class="stat">
         <dt>Events</dt>
-        <dd>2</dd>
-        <div class="sub">T18 at Redbird, T23 at Red Sky</div>
+        <dd>3</dd>
+        <div class="sub">T18 Redbird, T23 Red Sky, <strong>T1 Ron Moore</strong></div>
       </div>
       <div class="stat">
         <dt>Team-low round</dt>
-        <dd>2<span style="font-size:17px;color:var(--ink-3);">&times;</span></dd>
-        <div class="sub">Red Sky rounds one and three</div>
+        <dd>3<span style="font-size:17px;color:var(--ink-3);">&times;</span></dd>
+        <div class="sub">Red Sky one and three, Ron Moore one</div>
       </div>
       <div class="stat">
         <dt>Vs the field</dt>
-        <dd class="v-under">&minus;2.47</dd>
-        <div class="sub">per round &middot; field averaged 75.14 over the same six</div>
+        <dd class="v-under">&minus;3.24</dd>
+        <div class="sub">per round &middot; field averaged 74.91 over the same nine</div>
       </div>
       <div class="stat">
         <dt>Year over year</dt>
-        <dd class="v-under">&minus;2.12</dd>
+        <dd class="v-under">&minus;3.12</dd>
         <div class="sub">on last season's 74.79</div>
       </div>
     </dl>
@@ -524,7 +529,7 @@
         <tbody>
           <tr><td>2024&ndash;25 (Fr.)</td><td>10</td><td>30</td><td>75.70</td><td class="td-note">All-Summit League All-Freshman; two top-10s</td></tr>
           <tr><td>2025&ndash;26 (So.)</td><td>10</td><td>29*</td><td>74.79</td><td class="td-note">Led Denver; All-Summit League First Team; 3&times; Golfer of the Week; two top-fives, one top-10; 10 rounds at par or better</td></tr>
-          <tr class="her"><td>2026&ndash;27 (Jr.)</td><td>2</td><td>6</td><td>72.67</td><td class="td-note">T18 at Redbird, T23 and low Pioneer at Red Sky</td></tr>
+          <tr class="her"><td>2026&ndash;27 (Jr.)</td><td>3</td><td>9</td><td>71.67</td><td class="td-note">T18 at Redbird, T23 and low Pioneer at Red Sky</td></tr>
           <tr><td>Career</td><td>22</td><td>65</td><td>75.02</td><td class="td-note">*29 rounds, not 30: substituted out of round two at the 2026 Summit League Championship</td></tr>
         </tbody>
       </table>
@@ -533,8 +538,8 @@
     <div class="bars">
       <div class="bar-row"><span class="bar-lab">2024&ndash;25</span><span class="bar-track"><span class="bar-fill" style="width:81.4%"></span></span><span class="bar-val">75.70</span></div>
       <div class="bar-row"><span class="bar-lab">2025&ndash;26</span><span class="bar-track"><span class="bar-fill" style="width:68.4%"></span></span><span class="bar-val">74.79</span></div>
-      <div class="bar-row"><span class="bar-lab">2026&ndash;27</span><span class="bar-track"><span class="bar-fill best" style="width:38.1%"></span></span><span class="bar-val">72.67</span></div>
-      <div class="bar-scale">Scoring average, scale 70.00 &ndash; 77.00. Shorter is better. 2026&ndash;27 is six rounds.</div>
+      <div class="bar-row"><span class="bar-lab">2026&ndash;27</span><span class="bar-track"><span class="bar-fill best" style="width:23.9%"></span></span><span class="bar-val">71.67</span></div>
+      <div class="bar-scale">Scoring average, scale 70.00 &ndash; 77.00. Shorter is better. 2026&ndash;27 is nine rounds.</div>
     </div>
 
     <p class="note">Three strokes off her freshman average in two years, and two-thirds of that drop has come in the last two weeks. Six rounds is not a season: split this fall and she is 75.00 per round at Redbird against 70.33 at Red Sky. One excellent week, not yet a new level.</p>
@@ -668,6 +673,43 @@
       </table>
     </div>
     <p class="note">At <strong>eight of the nine</strong> programs here she would have been a counting score. The exception is the winner: USC's whole lineup broke 211 on the way to a fifteen-stroke victory. Two rows carry the most weight in opposite directions. <strong>At Colorado, 53rd in the country, she would have been the number one player by four shots</strong> &mdash; and at Pepperdine she would have been the fourth counter, behind 202, 205 and 206. Against the team Denver has to pass in April she is a contributor, not yet a difference-maker; against the rest of this field she is a top-three player.</p>
+
+    <h3 style="margin-top:8px;">Every higher-ranked player in the field</h3>
+    <p class="note">Twenty-one players at the Ron Moore Intercollegiate were ranked above Hale&rsquo;s <strong>438th</strong> in the final 2025&ndash;26 Division I women&rsquo;s player rankings. The last column is how many strokes she beat each of them by over 54 holes. <strong>She beat twenty, tied one and lost to none.</strong></p>
+
+    <div class="table-shell">
+      <table class="sof">
+        <caption>Ron Moore Intercollegiate, October 2&ndash;4 2026 &mdash; Hale 209 (&minus;7)</caption>
+        <thead>
+          <tr><th>Player</th><th>School</th><th>2026 rank</th><th>54 holes</th><th>Margin</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Amanda Jurander</td><td class="td-note">Xavier</td><td><span class="bq-rk2">&mdash;&nbsp;see note</span></td><td>236</td><td><span class="bq-cell"><span class="bq-fill" style="width:100.0%"></span><span class="bq-val">+27</span></span></td></tr>
+          <tr><td>Foong Zi Yu</td><td class="td-note">UNLV</td><td>123</td><td>218</td><td><span class="bq-cell"><span class="bq-fill" style="width:33.3%"></span><span class="bq-val">+9</span></span></td></tr>
+          <tr><td>Grace Quintanilla</td><td class="td-note">Texas State</td><td>126</td><td>214</td><td><span class="bq-cell"><span class="bq-fill" style="width:18.5%"></span><span class="bq-val">+5</span></span></td></tr>
+          <tr><td>Raya Nakao</td><td class="td-note">Oregon State</td><td>144</td><td>211</td><td><span class="bq-cell"><span class="bq-fill" style="width:7.4%"></span><span class="bq-val">+2</span></span></td></tr>
+          <tr><td>Leia Chung</td><td class="td-note">Boise State</td><td>160</td><td>215</td><td><span class="bq-cell"><span class="bq-fill" style="width:22.2%"></span><span class="bq-val">+6</span></span></td></tr>
+          <tr class="her"><td>Isabel Brozena</td><td class="td-note">Xavier</td><td>172</td><td>209</td><td><span class="bq-cell"><span class="bq-dot"></span><span class="bq-val">tied</span></span></td></tr>
+          <tr><td>Carolyn Fuller</td><td class="td-note">Colorado</td><td>179</td><td>223</td><td><span class="bq-cell"><span class="bq-fill" style="width:51.9%"></span><span class="bq-val">+14</span></span></td></tr>
+          <tr><td>Kate Nakaoka</td><td class="td-note">Oregon State</td><td>183</td><td>217</td><td><span class="bq-cell"><span class="bq-fill" style="width:29.6%"></span><span class="bq-val">+8</span></span></td></tr>
+          <tr><td>Pin Hsi Chen</td><td class="td-note">UNLV</td><td>220</td><td>212</td><td><span class="bq-cell"><span class="bq-fill" style="width:11.1%"></span><span class="bq-val">+3</span></span></td></tr>
+          <tr><td>Kiley Reisner</td><td class="td-note">Wyoming</td><td>262</td><td>216</td><td><span class="bq-cell"><span class="bq-fill" style="width:25.9%"></span><span class="bq-val">+7</span></span></td></tr>
+          <tr><td>Alexsandra Lapple</td><td class="td-note">Notre Dame</td><td>272</td><td>225</td><td><span class="bq-cell"><span class="bq-fill" style="width:59.3%"></span><span class="bq-val">+16</span></span></td></tr>
+          <tr><td>Kara Kaneshiro</td><td class="td-note">Colorado State</td><td>278</td><td>223</td><td><span class="bq-cell"><span class="bq-fill" style="width:51.9%"></span><span class="bq-val">+14</span></span></td></tr>
+          <tr><td>Lauren Rios</td><td class="td-note">UTSA</td><td>294</td><td>224</td><td><span class="bq-cell"><span class="bq-fill" style="width:55.6%"></span><span class="bq-val">+15</span></span></td></tr>
+          <tr><td>Ellen O'Shaughnessy</td><td class="td-note">Colorado</td><td>326</td><td>221</td><td><span class="bq-cell"><span class="bq-fill" style="width:44.4%"></span><span class="bq-val">+12</span></span></td></tr>
+          <tr><td>Jordan Levitt</td><td class="td-note">Notre Dame</td><td>333</td><td>222</td><td><span class="bq-cell"><span class="bq-fill" style="width:48.1%"></span><span class="bq-val">+13</span></span></td></tr>
+          <tr><td>Kylie Phi</td><td class="td-note">Long Beach State</td><td>367</td><td>217</td><td><span class="bq-cell"><span class="bq-fill" style="width:29.6%"></span><span class="bq-val">+8</span></span></td></tr>
+          <tr><td>Maya McVey</td><td class="td-note">Colorado</td><td>391</td><td>217</td><td><span class="bq-cell"><span class="bq-fill" style="width:29.6%"></span><span class="bq-val">+8</span></span></td></tr>
+          <tr><td>Teemapat Pateetin</td><td class="td-note">Colorado</td><td>402</td><td>236</td><td><span class="bq-cell"><span class="bq-fill" style="width:100.0%"></span><span class="bq-val">+27</span></span></td></tr>
+          <tr><td>Teal Matsueda</td><td class="td-note">Boise State</td><td>403</td><td>230</td><td><span class="bq-cell"><span class="bq-fill" style="width:77.8%"></span><span class="bq-val">+21</span></span></td></tr>
+          <tr><td>Francesca Pompa</td><td class="td-note">Tulane</td><td>405</td><td>214</td><td><span class="bq-cell"><span class="bq-fill" style="width:18.5%"></span><span class="bq-val">+5</span></span></td></tr>
+          <tr><td>Lana Yamagata</td><td class="td-note">UNLV</td><td>426</td><td>227</td><td><span class="bq-cell"><span class="bq-fill" style="width:66.7%"></span><span class="bq-val">+18</span></span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note" style="margin-top:12px;"><strong>A note on Amanda Jurander.</strong> Her Clippd profile shows National Rank #7, but she does not appear anywhere on the Division I women&rsquo;s ranking list, which has Avery Weed of Mississippi State at 7th. Her 48.33 average weighted points would place her about <strong>39th</strong> on that list. Either way she is ranked well above Hale, so she belongs in this table &mdash; but the &ldquo;seventh in the country&rdquo; figure is not supported by the leaderboard and is not used here. The other twenty ranks were checked one by one against the published list and all twenty match exactly.</p>
+    <p class="note" style="margin-top:10px;">The only player here Hale did not beat is <strong>Isabel Brozena</strong>, 172nd, who closed in 65 to tie at 209. Of the 85 players in the field, 68 carry a 2025&ndash;26 ranking; the other 17 are freshmen without one and are excluded rather than assumed to be worse.</p>
 
     <h3 style="margin-top:8px;">Strength of field, event by event</h3>
     <p class="note">All twenty-two collegiate events she has played, ordered by the strength of the field. The ranking column is WAGR's own <strong>power rating</strong> &mdash; an independent measure of who actually teed it up, not a judgement of mine. The tiers are cut from it: <span class="tier t-elite">Elite</span> 600 and above, <span class="tier t-strong">Strong</span> 250&ndash;599, <span class="tier t-mid">Mid</span> 100&ndash;249, <span class="tier t-reg">Regional</span> under 100. "Majors" counts entered programs from the ACC, Big Ten, Big 12 and SEC, plus Pepperdine. Par varies by course, so winner and median are given in strokes with the par alongside.</p>
@@ -894,7 +936,7 @@
         </tbody>
       </table>
     </div>
-    <p class="note">Both of her career-low 68s &mdash; Wisconsin Badger in September 2025 and Red Sky this month &mdash; were final rounds. Her six-round qualifying ran the same way, 76 down to 70 and 72. Rounds at par or better have held steady at about a third (10 of 29 as a sophomore, 2 of 6 this fall); what has changed is how low the good rounds go, not how often they come. The 78 at Redbird is still in her range, and that tail is what stands between 72.67 and a real sub-73 season.</p>
+    <p class="note">Her career low is now the <strong>67</strong> that opened Ron Moore; the two 68s before it, at the Wisconsin Badger in September 2025 and at Red Sky, were both final rounds. Rounds at par or better have gone from about a third as a sophomore (10 of 29) to <strong>five of nine</strong> this fall, and the good rounds are going lower with them &mdash; 67, 68, 69, 70. The 78 at Redbird is still in her range, and that tail is the difference between 71.67 and a season that stays there.</p>
 
     <p class="note">Context for the honors column: Denver became a competing member of the West Coast Conference on July 1, 2026, so the Summit League awards are behind her and the schedule has stepped up. Her T23 against USC, Texas A&amp;M, LSU, Pepperdine and Miami at Red Sky is arguably a better result than either of her sophomore top-fives, which came in Summit-caliber fields.</p>
   </section>
@@ -910,7 +952,8 @@
         </thead>
         <tbody>
           <tr><td>Lady Redbird Invitational</td><td>294</td><td>302</td><td>296</td><td>892</td><td>+28</td><td>4 / 13 &middot; ranked 2nd</td></tr>
-          <tr class="her"><td>Golfweek Red Sky Classic</td><td>283</td><td>298</td><td>279</td><td>860</td><td>&minus;4</td><td>10 / 20 &middot; ranked 16th</td></tr>
+          <tr><td>Golfweek Red Sky Classic</td><td>283</td><td>298</td><td>279</td><td>860</td><td>&minus;4</td><td>10 / 20 &middot; ranked 16th</td></tr>
+          <tr class="her"><td>Ron Moore Intercollegiate</td><td>288</td><td>296</td><td>287</td><td>871</td><td>+7</td><td>T5 / 15 &middot; ranked 10th</td></tr>
         </tbody>
       </table>
     </div>
@@ -1056,7 +1099,7 @@
       <li>
         <span class="rank-n">2</span>
         <span class="rank-body"><strong>The pivots &mdash; Ron Moore and the WCC Championship</strong>
-        <span class="rank-sub">Both are winnable and both matter. Ron Moore is at Highlands Ranch, where Hale has shot 211 for T5 and played six qualifying rounds this month, closing with 70 and 72, and where nine of fourteen opponents outrank Denver &mdash; the best risk-to-reward week of the fall. The field is now posted and the nine-of-fourteen figure checks out exactly. Ranked above Denver&rsquo;s 113th: <strong>Oregon State 47, Colorado 53, Texas State 54, UNLV 65, Xavier 69, UTSA 85, Notre Dame 89, Boise State 95, Long Beach State 99</strong>. Below: Colorado State 117, Tulane 120, Northern Colorado 123, Wyoming 130, Hawaii 151. The conference title is the only automatic path to a regional.</span></span>
+        <span class="rank-sub">Both mattered and both still do. Ron Moore is played: Denver went in ranked tenth of fifteen and finished <strong>T5 at 871</strong>, with Hale sharing the individual title at 209 and Farbu counting for the first time. The field is now posted and the nine-of-fourteen figure checks out exactly. Ranked above Denver&rsquo;s 113th: <strong>Oregon State 47, Colorado 53, Texas State 54, UNLV 65, Xavier 69, UTSA 85, Notre Dame 89, Boise State 95, Long Beach State 99</strong>. Below: Colorado State 117, Tulane 120, Northern Colorado 123, Wyoming 130, Hawaii 151. The conference title is the only automatic path to a regional.</span></span>
       </li>
       <li>
         <span class="rank-n">3</span>
@@ -1140,7 +1183,7 @@
     </div>
     <p class="note">There is a second gate as well: the .500 rule requires fifteen rounds and a Division I record of .500 or better. Denver was <strong>53-77-2</strong> last season, and a sub-.500 team is ineligible whatever its ranking &mdash; three teams inside the top 70 missed the 2026 field on exactly that. The scenario has also already run once: Denver finished second in the Summit League last April, was not selected, and played the Golfweek National Golf Invitational instead, where they finished second. <strong>Conditional on a runner-up finish, an at-large bid is worth about one chance in ten.</strong></p>
 
-    <p class="note"><strong>The .500 record is a season-long goal, not a footnote.</strong> Every tournament is a head-to-head result as well as a finish, and the line is drawn at the end of conference play. Denver is <strong>19&ndash;12 (.613)</strong> so far this fall &mdash; 9&ndash;3 at Redbird, 10&ndash;9 at Red Sky &mdash; against <strong>53&ndash;77&ndash;2 (.409)</strong> for all of last season. That is the single clearest measure of how different this team already looks, and it is worth protecting: the Wallace Classic alone puts fifteen higher-ranked teams in a twenty-team field, and two weeks of that pull the percentage back toward the line quickly. Win the conference and none of it matters; finish second and it is the gate that has to be open before the ranking is even consulted.</p>
+    <p class="note"><strong>The .500 record is a season-long goal, not a footnote.</strong> Every tournament is a head-to-head result as well as a finish, and the line is drawn at the end of conference play. Denver is <strong>28&ndash;16&ndash;1 (.636)</strong> so far this fall &mdash; 9&ndash;3 at Redbird, 10&ndash;9 at Red Sky, 9&ndash;4&ndash;1 at Ron Moore &mdash; against <strong>53&ndash;77&ndash;2 (.409)</strong> for all of last season. That is the single clearest measure of how different this team already looks, and it is worth protecting: the Wallace Classic alone puts fifteen higher-ranked teams in a twenty-team field, and two weeks of that pull the percentage back toward the line quickly. Win the conference and none of it matters; finish second and it is the gate that has to be open before the ranking is even consulted.</p>
 
     <p class="note">One number argues the at-large is not absurd. At Red Sky, Denver shot 860 and beat <strong>Colorado head-to-head, 860 to 867</strong> &mdash; and Colorado was the last team into the 2026 NCAA field, at No. 51. One event is not a season, but it is the right kind of evidence. The likelier route remains the conference title &mdash; and the gap there is 9.3 strokes a round on paper, 6.3 with Farbu counting, and smaller still on any week Denver's worst round is not eighteen behind. <strong>This group has the pieces to put Denver back inside the top 50</strong>: five counting scorers between 72.50 and 74.33, a sixth in Hamilton who was tied second on the team at Ron Moore last October, and four Elite or Strong fields still on the schedule to be rated in.</p>
 
@@ -1154,7 +1197,7 @@
 
   <footer>
     <div>An unofficial family tracker. Not affiliated with the University of Denver or the West Coast Conference. <a href="./">Back to the season card</a>.</div>
-    <div>Current through the Golfweek Red Sky Classic, September 23, 2026. Analysis updated September 26. Next results expected from the Ron Moore Intercollegiate, October 2&ndash;4.</div>
+    <div>Current through the Ron Moore Intercollegiate, October 4, 2026. Analysis updated October 5. Next results expected from the Jim West Challenge, October 18&ndash;19.</div>
     <div>Scores from <a href="https://results.golfstat.com/public/leaderboards/gsnav.cfm?pg=player&amp;tid=29499">Golfstat</a>, <a href="https://scoreboard.clippd.com/">Scoreboard powered by Clippd</a> and the <a href="https://denverpioneers.com/sports/womens-golf/schedule/2026-27">Denver athletics schedule archive</a>. Ranking figures from <a href="https://www.wagr.com/playerprofile/logan-hale-42031">WAGR</a> and the National Collegiate Golf Ranking; selection rules from the NCAA Division I women's golf pre-championship manual. Qualifying pars derived from the published to-par column; per-round field ranks computed from the full leaderboards.</div>
   </footer>
 </div>
